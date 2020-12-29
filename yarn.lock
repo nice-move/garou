@@ -335,13 +335,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@nice-move/cli@^0.5.11":
-  version "0.5.11"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fcli/-/cli-0.5.11.tgz#b91160b43c9c5d2485602966848719c717cdefe0"
-  integrity sha512-GYlp48Rp5bHeE4G5/vOb7Wav47enX+IPg26Tt0Ey812Agt5djbaGBtL2cc7bMM8XHSgdWpoHjH8HXur+i+GkYw==
+"@nice-move/cli@^0.5.13":
+  version "0.5.13"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fcli/-/cli-0.5.13.tgz#1ff7504a7ed5fcd232e407bb2419468df64f5a4e"
+  integrity sha512-i4B1tX/YMxLE83N+me+ZfRNcK2Io31BgmP2NqoxxeNQi3EhUMisciQZexfqduvQf7HafVQxQK9vwcfNrlo+fZg==
   dependencies:
-    "@nice-move/init" "^0.0.0"
-    "@nice-move/lint" "^0.0.0"
+    "@nice-move/init" "^0.1.1"
+    "@nice-move/lint" "^0.1.1"
     cheetor "^0.3.2"
 
 "@nice-move/commitlint-config@^0.0.0":
@@ -366,10 +366,10 @@
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-unicorn "^24.0.0"
 
-"@nice-move/init@^0.0.0":
-  version "0.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2finit/-/init-0.0.0.tgz#d03665cf1c627cef00b103c3282bede2af7c16f9"
-  integrity sha512-5iyVahNEw/f2SF2cAWKldbdNuEFZ+eQNQINWHY+8c+f42M2XndTAr7GqFNslDnzyVJgGiONeXMDRAUeLU0PZGQ==
+"@nice-move/init@^0.1.1":
+  version "0.1.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2finit/-/init-0.1.1.tgz#1428bbbc8fbde9d5a837818d6af1a60393119d45"
+  integrity sha512-9YGhN5gNH1GdXMAlt3Ix7Mxk7hUrOBcKSc3T0Y1srqb09Ae3SfjsnZQCFYS4/yP80SSrMnH6/8fwiBOs0L5Kig==
   dependencies:
     centra "^2.4.2"
     deepmerge "^4.2.2"
@@ -381,10 +381,10 @@
     os-locale "^5.0.0"
     prompts "^2.4.0"
 
-"@nice-move/lint@^0.0.0":
-  version "0.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2flint/-/lint-0.0.0.tgz#57005d4d165cb779ac21276cbccd5cb0a4f78b7e"
-  integrity sha512-X9VJhyvnn5TwimY6E3nKfcsbmUPZ/EXulCbN/lfWhzYumHQTJVvj/srhq+RpQuFfTvksyxtXM6f9HOT8cmfq2w==
+"@nice-move/lint@^0.1.1":
+  version "0.1.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2flint/-/lint-0.1.1.tgz#da374ff12e894ded5071bc27e698d117631ee57e"
+  integrity sha512-bZvhTZNKf3gHWTaRVGyVao5wLWobrDoh5zwnArWlr5VJf7O6/gbxxKugmPtKm7Mro9WAxhPWyCLEWe/ID05Ufw==
   dependencies:
     chalk "^4.1.0"
     eslint-formatter-pretty "^4.0.0"
