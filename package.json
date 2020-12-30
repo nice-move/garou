@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -64,7 +64,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "nice-move lint"
     }
   },
   "prettier": "@nice-move/prettier-config",
