@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -37,7 +37,8 @@
     "globby": "^11.0.1",
     "slash": "^3.0.0",
     "stylelint": "^13.8.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint-order": "^4.1.0",
+    "vue-eslint-parser": "^7.3.0"
   },
   "devDependencies": {
     "@nice-move/cli": "^0.5.13",

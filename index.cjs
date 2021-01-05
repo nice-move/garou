@@ -24,7 +24,5 @@ module.exports = function action(pattern) {
       }
       console.log('No files matching the pattern were found');
     })
-    .catch((error) => {
-      console.error(error);
-    });
+    .catch(console.error);
 };

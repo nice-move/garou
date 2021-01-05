@@ -535,12 +535,12 @@ JSONStream@^1.0.4:
     jsonparse "^1.2.0"
     through ">=2.2.7 <3"
 
-acorn-jsx@^5.3.1:
+acorn-jsx@^5.2.0, acorn-jsx@^5.3.1:
   version "5.3.1"
   resolved "https://mirrors.cloud.tencent.com/npm/acorn-jsx/-/acorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
   integrity sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==
 
-acorn@^7.4.0:
+acorn@^7.1.1, acorn@^7.4.0:
   version "7.4.1"
   resolved "https://mirrors.cloud.tencent.com/npm/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
@@ -1457,7 +1457,7 @@ eslint-rule-docs@^1.1.5:
   resolved "https://mirrors.cloud.tencent.com/npm/eslint-rule-docs/-/eslint-rule-docs-1.1.217.tgz#1fe2298d4b1c515469679c21b193a0a3b9e018a2"
   integrity sha512-xqd9Dtrr0bwoMtcQniZ+V/oXmixPe8TbPcKbMy4tzKIljUhiUpQDYrDZ6H3fIqUBlCcl9r7UhLoERqsMA74bcg==
 
-eslint-scope@^5.1.1:
+eslint-scope@^5.0.0, eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://mirrors.cloud.tencent.com/npm/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
   integrity sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==
@@ -1535,6 +1535,15 @@ eslint@^7.17.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
+espree@^6.2.1:
+  version "6.2.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/espree/-/espree-6.2.1.tgz#77fc72e1fd744a2052c20f38a5b575832e82734a"
+  integrity sha512-ysCxRQY3WaXJz9tdbWOwuWr5Y/XrPTGX9Kiz3yoUXwW0VZ4w30HTkQLaGx/+ttFjF8i+ACbArnB4ce68a9m5hw==
+  dependencies:
+    acorn "^7.1.1"
+    acorn-jsx "^5.2.0"
+    eslint-visitor-keys "^1.1.0"
+
 espree@^7.3.0, espree@^7.3.1:
   version "7.3.1"
   resolved "https://mirrors.cloud.tencent.com/npm/espree/-/espree-7.3.1.tgz#f2df330b752c6f55019f8bd89b7660039c1bbbb6"
@@ -1549,7 +1558,7 @@ esprima@^4.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-esquery@^1.2.0, esquery@^1.3.1:
+esquery@^1.0.1, esquery@^1.2.0, esquery@^1.3.1:
   version "1.3.1"
   resolved "https://mirrors.cloud.tencent.com/npm/esquery/-/esquery-1.3.1.tgz#b78b5828aa8e214e29fb74c4d5b752e1c033da57"
   integrity sha512-olpvt9QG0vniUBZspVRN6lwB7hOZoTRtT+jzR+tS4ffYx2mzbw+z0XCOk44aaLYKApNX5nMm+E+P6o25ip/DHQ==
@@ -4211,6 +4220,18 @@ vfile@^4.0.0:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
+
+vue-eslint-parser@^7.3.0:
+  version "7.3.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/vue-eslint-parser/-/vue-eslint-parser-7.3.0.tgz#894085839d99d81296fa081d19643733f23d7559"
+  integrity sha512-n5PJKZbyspD0+8LnaZgpEvNCrjQx1DyDHw8JdWwoxhhC+yRip4TAvSDpXGf9SWX6b0umeB5aR61gwUo6NVvFxw==
+  dependencies:
+    debug "^4.1.1"
+    eslint-scope "^5.0.0"
+    eslint-visitor-keys "^1.1.0"
+    espree "^6.2.1"
+    esquery "^1.0.1"
+    lodash "^4.17.15"
 
 wcwidth@^1.0.1:
   version "1.0.1"
