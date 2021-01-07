@@ -16,10 +16,10 @@ Do thing what heroes didn't do.
 
 A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care about. Offering better code changing when `git diff`.
 
-- Sort `html/xml/svg` attributes
+- Sort `html/htm` attributes
 - Sort `jsx` props
-- Sort `js` class members
-- Sort `js` import
+- Sort `js/mjs/cjs` class members
+- Sort `js/mjs/cjs` import
 - Sort `css/scss/less` properties
 - Add empty line between code
 - ...other fixing
@@ -34,4 +34,19 @@ npm install garou --save-dev
 
 ```bash
 npx -c garou
+```
+
+## Configuration
+
+```json
+// example: package.json
+{
+  "garou": {
+    "import-groups": [
+      // see: https://github.com/lydell/eslint-plugin-simple-import-sort#custom-grouping
+      ["^@internal\\/"],
+      ["^@external\\/"]
+    ]
+  }
+}
 ```
