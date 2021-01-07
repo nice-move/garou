@@ -12,6 +12,18 @@ Do thing what heroes didn't do.
 [github-badge]: https://img.shields.io/npm/l/garou.svg?style=flat-square&colorB=blue&logo=github
 [node-badge]: https://img.shields.io/node/v/garou.svg?style=flat-square&colorB=green&logo=node.js
 
+## Features
+
+A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care about. Offering better code changing when `git diff`.
+
+- Sort `html/xml/svg` attributes
+- Sort `jsx` props
+- Sort `js` class members
+- Sort `js` import
+- Sort `css/scss/less` properties
+- Add empty line between code
+- ...other fixing
+
 ## Installation
 
 ```bash

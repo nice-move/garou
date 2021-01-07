@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -34,21 +34,26 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.9.0",
-    "globby": "^11.0.1",
+    "fs-chain": "^1.4.1",
+    "globby": "^11.0.2",
+    "rehype-parse": "^7.0.1",
+    "rehype-sort-attributes": "^3.0.2",
+    "rehype-stringify": "^8.0.0",
     "slash": "^3.0.0",
     "stylelint": "^13.8.0",
     "stylelint-order": "^4.1.0",
+    "unified": "^9.2.0",
     "vue-eslint-parser": "^7.3.0"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.13",
+    "@nice-move/cli": "^0.5.14",
     "@nice-move/commitlint-config": "^0.0.0",
-    "@nice-move/eslint-config-base": "^0.5.13",
+    "@nice-move/eslint-config-base": "^0.5.14",
     "@nice-move/prettier-config": "^0.3.5",
     "@nice-move/stylelint-config": "^0.5.1",
     "commitlint": "^11.0.0",
     "eslint": "^7.17.0",
-    "husky": "^4.3.6",
+    "husky": "^4.3.7",
     "prettier": "^2.2.1",
     "stylelint": "^13.8.0"
   },
