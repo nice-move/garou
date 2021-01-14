@@ -1,6 +1,6 @@
 const { findFiles } = require('./lib/utils.cjs');
 
-const sortStyle = require('./lib/sort-style.cjs');
+const sortStyle = require('./lib/sort-style/index.cjs');
 const sortScript = require('./lib/sort-script.cjs');
 const sortTemplate = require('./lib/sort-template.cjs');
 

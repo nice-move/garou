@@ -413,10 +413,10 @@
     npm-normalize-package-bin "^1.0.1"
     prettier-package-json "^2.1.3"
 
-"@nice-move/stylelint-config@^0.5.1":
-  version "0.5.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fstylelint-config/-/stylelint-config-0.5.1.tgz#d1f7b0af1aca04dd19974f564bbb6031539fa13c"
-  integrity sha512-TeNpqKlyvl+SzojcfK5d4HnJ7IFtjaxK0NYQo5TYismhIVOjWFXVTpJACiRZQ3nK/R10G7ZdrWO6alaBjkEylw==
+"@nice-move/stylelint-config@^0.5.2":
+  version "0.5.2"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fstylelint-config/-/stylelint-config-0.5.2.tgz#665bc9b02f3677b7adaf23154ad7058c710a63ab"
+  integrity sha512-k6foa/AQoWgEq+4gS6eiVMlVRr8WwztH2PDb1dGHWTHYu85b9O1P/dYtUkOu5oxgryuDVj4tdiAB1KRfCrz/qg==
   dependencies:
     stylelint-config-css-modules "^2.2.0"
     stylelint-config-prettier "^8.0.2"
@@ -817,6 +817,14 @@ cheetor@^0.3.2:
   version "0.3.2"
   resolved "https://mirrors.cloud.tencent.com/npm/cheetor/-/cheetor-0.3.2.tgz#157fe808614c9e7c2afc5c5587ca66118a71f329"
   integrity sha512-sPdlyfPUaFHz7bcf9zfRggbP3TeGxNRbxgkepBJewWgusGXtV5qnCrRHTS1ZH42ZDVnfiNjvnGI7iSBGgp6C2Q==
+  dependencies:
+    chalk "^4.1.0"
+    yargs "^16.2.0"
+
+cheetor@^0.4.1:
+  version "0.4.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/cheetor/-/cheetor-0.4.1.tgz#63fcb1bf018da5efd6f005767856291784fb50e3"
+  integrity sha512-/EQCYZf+xOO/H3WYu/nRPH7Re0LcTo8r8HCQVVIF2Bl+zgl5SsRMWcHAws5/bbzeDhLRik34KPuglH1zxvN9+w==
   dependencies:
     chalk "^4.1.0"
     yargs "^16.2.0"
