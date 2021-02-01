@@ -38,7 +38,7 @@ npx -c garou
 
 ## Configuration
 
-```json
+```jsonc
 // example: package.json
 {
   "garou": {
@@ -50,3 +50,7 @@ npx -c garou
   }
 }
 ```
+
+## Tips
+
+`garou` might mess up your format, I suggest run `garou` before run `prettier`.
