@@ -351,17 +351,17 @@
   dependencies:
     "@commitlint/config-conventional" "^11.0.0"
 
-"@nice-move/eslint-config-base@^0.5.17":
-  version "0.5.17"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.17.tgz#faa8d5ab64026d3210e5c54e2c8de4bc9a297b56"
-  integrity sha512-ybyM/qakxxgMdWnAh+8ngij4LM3m0Q3vhiVCbAuTReJqZO1SPcLAwqgXATDvXewQr7RyrKIOldRFFlrF8PZTQg==
+"@nice-move/eslint-config-base@^0.5.21":
+  version "0.5.21"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.21.tgz#635e7b2d416b66a094790fb2eeaddf6042ff8da5"
+  integrity sha512-CKdArtIhRJCKGBKkS1rcZbRnSYfUY/mtUbHC5voFIA5YXJCqkuMes2a3GiGnURWK8x0eCQ0cXRuLkpmw9Wq6bQ==
   dependencies:
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^7.2.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-html "^6.1.1"
     eslint-plugin-import "^2.22.1"
-    eslint-plugin-markdown "^2.0.0-rc.1"
+    eslint-plugin-markdown "^2.0.0-rc.2"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-unicorn "^27.0.0"
@@ -1505,10 +1505,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-markdown@^2.0.0-rc.1:
-  version "2.0.0-rc.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-markdown/-/eslint-plugin-markdown-2.0.0-rc.1.tgz#14d25ba567eb3cd0022f4795274f886932a22460"
-  integrity sha512-nR3yM8M7v6vWn1MJ3DCrmU1A2oqRCautjSuCUwev6CiqinUSM8nDP05yeQA6SUIMnP4FjedJpTkhcyyFHkA0/A==
+eslint-plugin-markdown@^2.0.0-rc.2:
+  version "2.0.0-rc.2"
+  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-markdown/-/eslint-plugin-markdown-2.0.0-rc.2.tgz#0826da576df004f9823453fc8e66bd8cab8477d3"
+  integrity sha512-wAxyQrvO86besEKriqGteceBxRtm1IEBn+Ci5i2hwchU1PYLnLxO73NroY74JpbzinER0zDOeZQeqwiuGTmdsA==
   dependencies:
     remark-parse "^5.0.0"
     unified "^6.1.2"
@@ -4549,11 +4549,6 @@ universalify@^0.1.0:
   version "0.1.2"
   resolved "https://mirrors.cloud.tencent.com/npm/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
-
-universalify@^1.0.0:
-  version "1.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
-  integrity sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
 
 universalify@^2.0.0:
   version "2.0.0"

@@ -16,8 +16,8 @@ async function runSorter({ style, script, template }) {
   }
 }
 
-module.exports = function action(pattern) {
-  findFiles(pattern) // eslint-disable-next-line consistent-return
+module.exports = function action(pattern, isGlobs) {
+  findFiles(pattern, isGlobs) // eslint-disable-next-line consistent-return
     .then((files) => {
       if (Object.values(files).flat().length > 0) {
         return runSorter(files);
