@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "cheetor": "^0.4.1",
-    "eslint": "^7.19.0",
+    "eslint": "^7.20.0",
     "eslint-plugin-html": "^6.1.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.22.0",
@@ -40,22 +40,22 @@
     "rehype-sort-attributes": "^3.0.2",
     "rehype-stringify": "^8.0.0",
     "slash": "^3.0.0",
-    "stylelint": "^13.9.0",
+    "stylelint": "^13.10.0",
     "stylelint-order": "^4.1.0",
     "unified": "^9.2.0",
-    "vue-eslint-parser": "^7.4.1"
+    "vue-eslint-parser": "^7.5.0"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.15",
+    "@nice-move/cli": "^0.5.16",
     "@nice-move/commitlint-config": "^0.0.0",
-    "@nice-move/eslint-config-base": "^0.5.21",
-    "@nice-move/prettier-config": "^0.3.5",
-    "@nice-move/stylelint-config": "^0.5.2",
+    "@nice-move/eslint-config-base": "^0.5.22",
+    "@nice-move/prettier-config": "^0.4.1",
+    "@nice-move/stylelint-config": "^0.5.3",
     "commitlint": "^11.0.0",
-    "eslint": "^7.19.0",
+    "eslint": "^7.20.0",
     "husky": "^4.3.8",
     "prettier": "^2.2.1",
-    "stylelint": "^13.9.0"
+    "stylelint": "^13.10.0"
   },
   "engines": {
     "node": "^12.18 || ^14"
