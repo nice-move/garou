@@ -1,12 +1,29 @@
 {
   "name": "garou",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
     "name": "Eric Chen",
     "email": "airkro@qq.com"
   },
+  "keywords": [
+    "code",
+    "config",
+    "css",
+    "eslint",
+    "format",
+    "garou",
+    "html",
+    "javascript",
+    "prettier",
+    "quality",
+    "react",
+    "sort",
+    "styleguide",
+    "stylelint",
+    "vue"
+  ],
   "homepage": "https://github.com/nice-move/garou",
   "repository": {
     "type": "git",
@@ -37,13 +54,11 @@
     "eslint-plugin-vue": "^7.6.0",
     "fs-chain": "^5.2.0",
     "globby": "^11.0.2",
-    "rehype-parse": "^7.0.1",
+    "rehype": "^11.0.0",
     "rehype-sort-attributes": "^3.0.2",
-    "rehype-stringify": "^8.0.0",
     "slash": "^3.0.0",
     "stylelint": "^13.11.0",
-    "stylelint-order": "^4.1.0",
-    "unified": "^9.2.0"
+    "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
     "@nice-move/cli": "^0.5.16",
