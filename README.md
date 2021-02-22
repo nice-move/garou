@@ -14,10 +14,12 @@ Do thing what heroes didn't do.
 
 ## Features
 
-A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care about. Offering better code changing when `git diff`.
+A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care about. Offering better code comparing when `git diff`.
 
 - Sort `html/htm` attributes
 - Sort `jsx` props
+- Sort `vue` component properties
+- Sort `vue` component attribute in template
 - Sort `js/mjs/cjs` class members
 - Sort `js/mjs/cjs` import
 - Sort `css/scss/less` properties

@@ -351,20 +351,20 @@
   dependencies:
     "@commitlint/config-conventional" "^11.0.0"
 
-"@nice-move/eslint-config-base@^0.5.22":
-  version "0.5.22"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.22.tgz#a4396e938d79f456b05460de86b99327d6783e37"
-  integrity sha512-iof9vTObtYhwaHJuLqYfObHg4qpQ8vUfBGzVoDXIkbkht8rpIMsXBlzSbO0E1R+mCvspYZkqtBhaViQqZJM7lA==
+"@nice-move/eslint-config-base@^0.5.23":
+  version "0.5.23"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.23.tgz#441280e07ed316b9eaa5604ec0b87137f603fdf1"
+  integrity sha512-pIE0La7HK7nr8SW2gfioLLhGIUR6Q336RpYqs3Yya8/zbLL8+0ALlT7mSdem5i0vjO9Vrj/XO8h2r+fV/V2VBw==
   dependencies:
     eslint-config-airbnb-base "^14.2.1"
-    eslint-config-prettier "^7.2.0"
+    eslint-config-prettier "^8.0.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-html "^6.1.1"
     eslint-plugin-import "^2.22.1"
-    eslint-plugin-markdown "^2.0.0-rc.2"
+    eslint-plugin-markdown "^2.0.0"
     eslint-plugin-node "^11.1.0"
-    eslint-plugin-promise "^4.2.1"
-    eslint-plugin-unicorn "^27.0.0"
+    eslint-plugin-promise "^4.3.1"
+    eslint-plugin-unicorn "^28.0.2"
 
 "@nice-move/init@^0.1.23":
   version "0.1.23"
@@ -421,10 +421,10 @@
     npm-normalize-package-bin "^1.0.1"
     prettier-package-json "^2.1.3"
 
-"@nice-move/stylelint-config@^0.5.3":
-  version "0.5.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fstylelint-config/-/stylelint-config-0.5.3.tgz#98cb9a6559b9b3caeceb48fe8c9620b0f4178ee6"
-  integrity sha512-jnZNFzz1gIVCqn1wyaBNES9MsmiW3GleL2PMY99OKgHuCgyPRBfzFZ6LO1LAcSZxcs61yrO2Kxco9DobF3cKfA==
+"@nice-move/stylelint-config@^0.5.4":
+  version "0.5.4"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fstylelint-config/-/stylelint-config-0.5.4.tgz#294e24199a974b66a57fe088b63886c7e277b3e7"
+  integrity sha512-D7vRyHu3+jXj/3sxy1ClK6rYcwsbrPCpH41xh0BujcCb+uKBtZ29LbZ5Tr1/XJz+ctP/hIPzWq6FIsfqJ/bA9g==
   dependencies:
     stylelint-config-css-modules "^2.2.0"
     stylelint-config-prettier "^8.0.2"
@@ -1429,10 +1429,10 @@ eslint-config-airbnb-base@^14.2.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-config-prettier@^7.2.0:
-  version "7.2.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/eslint-config-prettier/-/eslint-config-prettier-7.2.0.tgz#f4a4bd2832e810e8cc7c1411ec85b3e85c0c53f9"
-  integrity sha512-rV4Qu0C3nfJKPOAhFujFxB7RMP+URFyQqqOZW9DMRD7ZDTFyjaIlETU3xzHELt++4ugC0+Jm084HQYkkJe+Ivg==
+eslint-config-prettier@^8.0.0:
+  version "8.0.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/eslint-config-prettier/-/eslint-config-prettier-8.0.0.tgz#024d661444319686c588c8849c8da33815dbdb1c"
+  integrity sha512-5EaAVPsIHu+grmm5WKjxUia4yHgRrbkd8I0ffqUSwixCPMVBrbS97UnzlEY/Q7OWo584vgixefM0kJnUfo/VjA==
 
 eslint-formatter-pretty@^4.0.0:
   version "4.0.0"
@@ -1505,10 +1505,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-markdown@^2.0.0-rc.2:
-  version "2.0.0-rc.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-markdown/-/eslint-plugin-markdown-2.0.0-rc.2.tgz#0826da576df004f9823453fc8e66bd8cab8477d3"
-  integrity sha512-wAxyQrvO86besEKriqGteceBxRtm1IEBn+Ci5i2hwchU1PYLnLxO73NroY74JpbzinER0zDOeZQeqwiuGTmdsA==
+eslint-plugin-markdown@^2.0.0:
+  version "2.0.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-markdown/-/eslint-plugin-markdown-2.0.0.tgz#cd650beda2b599cd9e4535ea369266b5d0e49d23"
+  integrity sha512-zt10JoexHeJFMTE5egDcetAJ34bn5k/92s0wAuRZfhDAyI0ryEj+O91JL2CbBExajie6BE5L63y47dN1Sbp6mQ==
   dependencies:
     remark-parse "^5.0.0"
     unified "^6.1.2"
@@ -1525,10 +1525,10 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-promise@^4.2.1:
-  version "4.2.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
-  integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
+eslint-plugin-promise@^4.3.1:
+  version "4.3.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-promise/-/eslint-plugin-promise-4.3.1.tgz#61485df2a359e03149fdafc0a68b0e030ad2ac45"
+  integrity sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==
 
 eslint-plugin-react@^7.22.0:
   version "7.22.0"
@@ -1557,15 +1557,16 @@ eslint-plugin-sort-class-members@^1.9.0:
   resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-sort-class-members/-/eslint-plugin-sort-class-members-1.9.0.tgz#f837e1699cce61d9d2665f63d0692f6c1abdd409"
   integrity sha512-y01nzXHO78jBFaGSLEOqK2bKlA8Bi7xzDrxjhCj+GhGFyf2sgwLOj6QdTCHFU5Jt6nHM8l61syMGtfJTl/67Dw==
 
-eslint-plugin-unicorn@^27.0.0:
-  version "27.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-unicorn/-/eslint-plugin-unicorn-27.0.0.tgz#d12436409e399ab75c826bbb17b202846a276e5a"
-  integrity sha512-uUvlueTa4SpkvLjbkqx08JbB0tY6XxOAa8vlfwbTzITfVNy3go3QzPCus49fO5M/mfooOuraIDVkaqan/pLAHg==
+eslint-plugin-unicorn@^28.0.2:
+  version "28.0.2"
+  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-unicorn/-/eslint-plugin-unicorn-28.0.2.tgz#ab9884ebae04590ecd9c1c294330d889a74b7c37"
+  integrity sha512-k4AoFP7n8/oq6lBXkdc9Flid6vw2B8j7aXFCxgzJCyKvmaKrCUFb1TFPhG9eSJQFZowqmymMPRtl8oo9NKLUbw==
   dependencies:
     ci-info "^2.0.0"
     clean-regexp "^1.0.0"
     eslint-template-visitor "^2.2.2"
     eslint-utils "^2.1.0"
+    eslint-visitor-keys "^2.0.0"
     import-modules "^2.1.0"
     lodash "^4.17.20"
     pluralize "^8.0.0"
@@ -1574,6 +1575,16 @@ eslint-plugin-unicorn@^27.0.0:
     reserved-words "^0.1.2"
     safe-regex "^2.1.1"
     semver "^7.3.4"
+
+eslint-plugin-vue@^7.6.0:
+  version "7.6.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-vue/-/eslint-plugin-vue-7.6.0.tgz#ea616e6dfd45d545adb16cba628c5a992cc31f0b"
+  integrity sha512-qYpKwAvpcQXyUXVcG8Zd+fxHDx9iSgTQuO7dql7Ug/2BCvNNDr6s3I9p8MoUo23JJdO7ZAjW3vSwY/EBf4uBcw==
+  dependencies:
+    eslint-utils "^2.1.0"
+    natural-compare "^1.4.0"
+    semver "^7.3.2"
+    vue-eslint-parser "^7.5.0"
 
 eslint-rule-docs@^1.1.5:
   version "1.1.217"
@@ -4205,10 +4216,10 @@ stylelint-scss@^3.19.0:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.1.0"
 
-stylelint@^13.10.0:
-  version "13.10.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/stylelint/-/stylelint-13.10.0.tgz#67b0c6f378c3fa61aa569a55d38feb8570b0b587"
-  integrity sha512-eDuLrL0wzPKbl5/TbNGZcbw0lTIGbDEr5W6lCODvb1gAg0ncbgCRt7oU0C2VFDvbrcY0A3MFZOwltwTRmc0XCw==
+stylelint@^13.11.0:
+  version "13.11.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/stylelint/-/stylelint-13.11.0.tgz#591981fbdd68c9d3d3e6147a0cd6a07539fc216d"
+  integrity sha512-DhrKSWDWGZkCiQMtU+VroXM6LWJVC8hSK24nrUngTSQvXGK75yZUq4yNpynqrxD3a/fzKMED09V+XxO4z4lTbw==
   dependencies:
     "@stylelint/postcss-css-in-js" "^0.37.2"
     "@stylelint/postcss-markdown" "^0.36.2"
