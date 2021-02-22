@@ -351,10 +351,10 @@
   dependencies:
     "@commitlint/config-conventional" "^11.0.0"
 
-"@nice-move/eslint-config-base@^0.5.23":
-  version "0.5.23"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.23.tgz#441280e07ed316b9eaa5604ec0b87137f603fdf1"
-  integrity sha512-pIE0La7HK7nr8SW2gfioLLhGIUR6Q336RpYqs3Yya8/zbLL8+0ALlT7mSdem5i0vjO9Vrj/XO8h2r+fV/V2VBw==
+"@nice-move/eslint-config-base@^0.5.24":
+  version "0.5.24"
+  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.24.tgz#4a9e18c485a94f277f5f52d91ca261b59ec522c6"
+  integrity sha512-IrYu894eWF0MAuqhrsTsInN0yiLqcizmMIgbYiH/WCGUtgI8d2ZHBeNg3FwoBKr7k7C7f0PW3iYlcL/CzDn26w==
   dependencies:
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^8.0.0"

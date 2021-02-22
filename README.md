@@ -18,8 +18,8 @@ A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care a
 
 - Sort `html/htm` attributes
 - Sort `jsx` props
-- Sort `vue` component properties
-- Sort `vue` component attribute in template
+- Sort `vue` component properties / attributes
+- Handle `jsx`/`vue` self closing
 - Sort `js/mjs/cjs` class members
 - Sort `js/mjs/cjs` import
 - Sort `css/scss/less` properties

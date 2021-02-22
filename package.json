@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@nice-move/cli": "^0.5.16",
     "@nice-move/commitlint-config": "^0.0.0",
-    "@nice-move/eslint-config-base": "^0.5.23",
+    "@nice-move/eslint-config-base": "^0.5.24",
     "@nice-move/prettier-config": "^0.4.1",
     "@nice-move/stylelint-config": "^0.5.4",
     "commitlint": "^11.0.0",
