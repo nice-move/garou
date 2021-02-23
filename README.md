@@ -5,6 +5,7 @@ Do thing what heroes didn't do.
 [![npm][npm-badge]][npm-url]
 [![github][github-badge]][github-url]
 ![node][node-badge]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnice-move%2Fgarou.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnice-move%2Fgarou?ref=badge_shield)
 
 [npm-url]: https://www.npmjs.com/package/garou
 [npm-badge]: https://img.shields.io/npm/v/garou.svg?style=flat-square&logo=npm
@@ -56,3 +57,7 @@ npx -c garou
 ## Tips
 
 `garou` might mess up your format, I suggest run `garou` before run `prettier`.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnice-move%2Fgarou.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnice-move%2Fgarou?ref=badge_large)
