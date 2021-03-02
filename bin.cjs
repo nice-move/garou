@@ -9,5 +9,5 @@ new Cheetor()
     process.title = scriptName;
   })
   .setup((args) => {
-    action(args._[0], true);
+    action(args._, true);
   });
