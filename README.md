@@ -35,7 +35,7 @@ npm install garou --save-dev
 ## Usage
 
 ```bash
-npx -c garou
+npx -c garou ./
 ```
 
 ## Configuration
