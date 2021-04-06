@@ -23,7 +23,7 @@ A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care a
 - Sort `js/mjs/cjs` class members
 - Sort `js/mjs/cjs` import
 - Sort `css/scss/less` properties
-- Add empty line between code
+- Handle empty line between code
 - ...other fixing
 
 ## Installation
@@ -55,4 +55,4 @@ npx -c garou ./
 
 ## Tips
 
-`garou` might mess up your format, I suggest run `garou` before run `prettier`.
+Using `garou` might mess up your format, I suggest run `garou` before run `prettier`.
