@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -17,14 +17,13 @@
     "html",
     "javascript",
     "prettier",
-    "quality",
     "react",
     "sort",
     "styleguide",
     "stylelint",
     "vue"
   ],
-  "homepage": "https://github.com/nice-move/garou",
+  "homepage": "https://www.npmjs.com/package/garou",
   "repository": {
     "type": "git",
     "url": "https://github.com/nice-move/garou.git"
@@ -45,32 +44,32 @@
     "prepare": "git config core.hooksPath .hooks"
   },
   "dependencies": {
-    "cheetor": "^0.7.0",
-    "eslint": "^7.24.0",
+    "cheetor": "^0.8.0",
+    "eslint": "^7.25.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.11.0",
     "eslint-plugin-vue": "^7.9.0",
-    "fs-chain": "^5.2.1",
+    "fs-chain": "^5.3.0",
     "globby": "^11.0.3",
     "rehype": "^11.0.0",
     "rehype-sort-attributes": "^3.0.2",
     "slash": "^3.0.0",
-    "stylelint": "^13.12.0",
+    "stylelint": "^13.13.0",
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
     "@nice-move/cli": "^0.5.21",
     "@nice-move/commitlint-config": "^0.1.2",
-    "@nice-move/eslint-config-base": "^0.5.30",
+    "@nice-move/eslint-config-base": "^0.5.31",
     "@nice-move/prettier-config": "^0.4.3",
     "@nice-move/stylelint-config": "^0.5.7",
     "commitlint": "^12.1.1",
-    "eslint": "^7.24.0",
+    "eslint": "^7.25.0",
     "prettier": "^2.2.1",
-    "stylelint": "^13.12.0"
+    "stylelint": "^13.13.0"
   },
   "engines": {
     "node": "^12.15.0 || ^14.15.3"
