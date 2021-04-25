@@ -380,13 +380,13 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.1"
 
-"@nice-move/eslint-config-base@^0.5.31":
-  version "0.5.31"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.31.tgz#7e678d6f81a9347da7f59dfbdaf87c24dfd1e3d9"
-  integrity sha512-IFyfonfvGQtTJCCuXZ3i0n9yVAbCd0fY66FAC5WfCupHNyrFRy67Gi/DLWtbJ+1PBNAurmy1C3EpBj5tGmCzBg==
+"@nice-move/eslint-config-base@^0.5.33":
+  version "0.5.33"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.33.tgz#f84a14cdff6a791899f5a15b632bf3163bda3f59"
+  integrity sha512-bLV0rZgzSYd5vaku6CMSNObbxBdZVjg502QejHvN+fyxSFMHfiHS/iwGwtOkdVgmOoSvoFobyFDpvrzeKCY+Lw==
   dependencies:
     eslint-config-airbnb-base "^14.2.1"
-    eslint-config-prettier "^8.2.0"
+    eslint-config-prettier "^8.3.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-html "^6.1.2"
     eslint-plugin-import "^2.22.1"
@@ -448,14 +448,14 @@
     npm-normalize-package-bin "^1.0.1"
     prettier-package-json "^2.1.3"
 
-"@nice-move/stylelint-config@^0.5.7":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@nice-move/stylelint-config/-/stylelint-config-0.5.7.tgz#d5a13efca37bb74a40d5300d056b74cee407aa1b"
-  integrity sha512-5i9s6FjBmzmbOUSwolreIl9EuxPc7O2LT4p/Jolqo4njdEeRXcw1b20KMkKUnSRrHk6XAgxY5IpdWXiW381rKw==
+"@nice-move/stylelint-config@^0.5.8":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@nice-move/stylelint-config/-/stylelint-config-0.5.8.tgz#abba6927678b65ca82d1c379e7ae36b39b9679f0"
+  integrity sha512-exai8lMuhJV0qo4eI4mpa/rk9p5Me0l/KhTvM+Kiz1npf12gs5R39MaYodXEKpaAw+r29Z3kISQh+kHzaxNFCA==
   dependencies:
     stylelint-config-css-modules "^2.2.0"
     stylelint-config-prettier "^8.0.2"
-    stylelint-config-standard "^21.0.0"
+    stylelint-config-standard "^22.0.0"
     stylelint-declaration-block-no-ignored-properties "^2.3.0"
     stylelint-scss "^3.19.0"
 
@@ -608,16 +608,6 @@ ajv@^6.10.0, ajv@^6.12.4:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
-ajv@^7.0.2:
-  version "7.0.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/ajv/-/ajv-7.0.3.tgz#13ae747eff125cafb230ac504b2406cf371eece2"
-  integrity sha512-R50QRlXSxqXcQP5SvKUrw8VZeypvo12i2IX0EeR5PiZ7bEKeHWgzgo264LDadUsCU42lTJVhFikTqJwNeH34gQ==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
 ajv@^8.0.1:
@@ -1429,7 +1419,7 @@ eslint-config-airbnb-base@^14.2.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-config-prettier@^8.2.0:
+eslint-config-prettier@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
@@ -2248,11 +2238,6 @@ indent-string@^4.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
-indexes-of@^1.0.1:
-  version "1.0.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
-  integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
-
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://mirrors.cloud.tencent.com/npm/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -2763,7 +2748,7 @@ lodash.truncate@^4.4.2:
   resolved "https://registry.yarnpkg.com/lodash.truncate/-/lodash.truncate-4.4.2.tgz#5a350da0b1113b837ecfffd5812cbe58d6eae193"
   integrity sha1-WjUNoLERO4N+z//VgSy+WNbq4ZM=
 
-lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
+lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://mirrors.cloud.tencent.com/npm/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -3333,7 +3318,7 @@ path-type@^4.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.3:
+picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.3.tgz#465547f359ccc206d3c48e46a1bcb89bf7ee619d"
   integrity sha512-KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==
@@ -4181,17 +4166,17 @@ stylelint-config-prettier@^8.0.2:
   resolved "https://mirrors.cloud.tencent.com/npm/stylelint-config-prettier/-/stylelint-config-prettier-8.0.2.tgz#da9de33da4c56893cbe7e26df239a7374045e14e"
   integrity sha512-TN1l93iVTXpF9NJstlvP7nOu9zY2k+mN0NSFQ/VEGz15ZIP9ohdDZTtCWHs5LjctAhSAzaILULGbgiM0ItId3A==
 
-stylelint-config-recommended@^4.0.0:
-  version "4.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/stylelint-config-recommended/-/stylelint-config-recommended-4.0.0.tgz#665a0034065e6704d5032ba51bf4efa37d328ef9"
-  integrity sha512-sgna89Ng+25Hr9kmmaIxpGWt2LStVm1xf1807PdcWasiPDaOTkOHRL61sINw0twky7QMzafCGToGDnHT/kTHtQ==
+stylelint-config-recommended@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-5.0.0.tgz#fb5653f495a60b4938f2ad3e77712d9e1039ae78"
+  integrity sha512-c8aubuARSu5A3vEHLBeOSJt1udOdS+1iue7BmJDTSXoCBmfEQmmWX+59vYIj3NQdJBY6a/QRv1ozVFpaB9jaqA==
 
-stylelint-config-standard@^21.0.0:
-  version "21.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/stylelint-config-standard/-/stylelint-config-standard-21.0.0.tgz#4942cfa27301eb6702fa8fc46a44da35d1a5cfd7"
-  integrity sha512-Yf6mx5oYEbQQJxWuW7X3t1gcxqbUx52qC9SMS3saC2ruOVYEyqmr5zSW6k3wXflDjjFrPhar3kp68ugRopmlzg==
+stylelint-config-standard@^22.0.0:
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-22.0.0.tgz#c860be9a13ebbc1b084456fa10527bf13a44addf"
+  integrity sha512-uQVNi87SHjqTm8+4NIP5NMAyY/arXrBgimaaT7skvRfE9u3JKXRK9KBkbr4pVmeciuCcs64kAdjlxfq6Rur7Hw==
   dependencies:
-    stylelint-config-recommended "^4.0.0"
+    stylelint-config-recommended "^5.0.0"
 
 stylelint-declaration-block-no-ignored-properties@^2.3.0:
   version "2.3.0"
@@ -4516,11 +4501,6 @@ unified@^9.0.0, unified@^9.1.0:
     is-plain-obj "^2.0.0"
     trough "^1.0.0"
     vfile "^4.0.0"
-
-uniq@^1.0.1:
-  version "1.0.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
-  integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
 
 unist-util-find-all-after@^3.0.2:
   version "3.0.2"
