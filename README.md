@@ -35,7 +35,7 @@ npm install garou --save-dev
 ## Usage
 
 ```bash
-npx -c garou ./
+npx -c garou .
 ```
 
 ## Configuration
@@ -46,8 +46,9 @@ npx -c garou ./
   "garou": {
     "import-groups": [
       // see: https://github.com/lydell/eslint-plugin-simple-import-sort#custom-grouping
-      ["^@internal\\/"],
-      ["^@external\\/"]
+      ["react", "react-dom"],
+      // shorthand -> ["^@external\\/"]
+      "^@external\\/"
     ]
   }
 }
