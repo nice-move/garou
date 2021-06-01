@@ -62,7 +62,7 @@
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.21",
+    "@nice-move/cli": "^0.5.22",
     "@nice-move/commitlint-config": "^0.1.2",
     "@nice-move/eslint-config-base": "^0.5.35",
     "@nice-move/prettier-config": "^0.4.3",
