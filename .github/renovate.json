@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:base",
+    "schedule:daily",
+    ":unpublishSafe",
+    ":prNotPending",
+    ":rebaseStalePrs",
+    ":maintainLockFilesWeekly",
+    ":automergePatch"
+  ],
+  "rangeStrategy": "bump",
+  "minor": {
+    "enabled": false
+  },
+  "major": {
+    "enabled": false
+  }
+}
