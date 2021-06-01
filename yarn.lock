@@ -226,10 +226,10 @@
     resolve-global "1.0.0"
     yargs "^16.2.0"
 
-"@commitlint/config-conventional@^12.1.1":
-  version "12.1.1"
-  resolved "https://mirrors.tencent.com/npm/@commitlint%2fconfig-conventional/-/config-conventional-12.1.1.tgz#73dd3b1a7912138420d248f334f15c94c250bc9e"
-  integrity sha512-15CqbXMsQiEb0qbzjEHe2OkzaXPYSp7RxaS6KoSVk/4W0QiigquavQ+M0huBZze92h0lMS6Pxoq4AJ5CQ3D+iQ==
+"@commitlint/config-conventional@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-12.1.4.tgz#95bbab622f117a8a3e49f95917b08655040c66a8"
+  integrity sha512-ZIdzmdy4o4WyqywMEpprRCrehjCSQrHkaRTVZV411GyLigFQHlEBSJITAihLAWe88Qy/8SyoIe5uKvAsV5vRqQ==
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
@@ -373,12 +373,12 @@
     cheetor "^0.9.0"
     execa "^5.0.0"
 
-"@nice-move/commitlint-config@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@nice-move/commitlint-config/-/commitlint-config-0.1.2.tgz#593377282551f2e03cff7b438272728b82979674"
-  integrity sha512-hQH3Nap06Smnyds5fqpI/NNXmwGyqSCezPZwj6QPN+SacmHLFpHwU8slfowbOhgJSnRQolquId/BKCARy7NfoA==
+"@nice-move/commitlint-config@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@nice-move/commitlint-config/-/commitlint-config-0.1.3.tgz#700383efa5f1821e93728f5f54cc889e027b102d"
+  integrity sha512-fnKSUOZ26veRtVUSp/9xuEtm/qOV51F0OppNdKSMwZrEroFDne+7nFg4prTNaNidjRyKgDKsmFC9L1hpC1CWzQ==
   dependencies:
-    "@commitlint/config-conventional" "^12.1.1"
+    "@commitlint/config-conventional" "^12.1.4"
 
 "@nice-move/eslint-config-base@^0.5.35":
   version "0.5.35"
