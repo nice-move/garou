@@ -1898,7 +1898,7 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
-fs-chain@7.2.1, fs-chain@^7.1.0:
+fs-chain@7.2.1, fs-chain@^7.1.0, fs-chain@^7.2.1:
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/fs-chain/-/fs-chain-7.2.1.tgz#9641e73e4ee57aa57ac3fd746b13a83f5549a69b"
   integrity sha512-fYXLtNH37tTKc+QHkN+1IGoH5iwMJ6gOBW1sTgEf0qusYWxmBwolpYFUKug/X/LvCSnJpg8h+2nK+2BzSHmS7A==
