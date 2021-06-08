@@ -69,7 +69,7 @@
     "@nice-move/stylelint-config": "^0.5.8",
     "commitlint": "^12.1.4",
     "eslint": "^7.27.0",
-    "prettier": "^2.3.0",
+    "prettier": "^2.3.1",
     "stylelint": "^13.13.1"
   },
   "engines": {
