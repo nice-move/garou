@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const { Cheetor } = require('cheetor');
+import { Cheetor } from 'cheetor';
 
-const action = require('./index.cjs');
+import action from './index.mjs';
 
-new Cheetor('./package.json', __dirname)
+new Cheetor('../package.json', import.meta.url)
   .effect(({ scriptName }) => {
     process.title = scriptName;
   })

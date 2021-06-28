@@ -17,11 +17,11 @@ Do thing what heroes didn't do.
 A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care about. Offering better code comparing when `git diff`.
 
 - Sort `html/htm` attributes
-- Sort `jsx` props
+- Sort `jsx/tsx` props
 - Sort `vue` component properties / attributes
 - Handle `jsx/vue` self closing
-- Sort `js/mjs/cjs` class members
-- Sort `js/mjs/cjs` import
+- Sort `tsx/ts/jsx/js/mjs/cjs` class members
+- Sort `tsx/ts/jsx/js/mjs/cjs` import
 - Sort `css/scss/less` properties
 - Handle empty line between code
 - ...other fixing

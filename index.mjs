@@ -1,8 +1,7 @@
-const { findFiles } = require('./lib/utils.cjs');
-
-const sortStyle = require('./lib/sort-style/index.cjs');
-const sortScript = require('./lib/sort-script.cjs');
-const sortTemplate = require('./lib/sort-template.cjs');
+import sortScript from './lib/sort-script.cjs';
+import sortStyle from './lib/sort-style/index.cjs';
+import sortTemplate from './lib/sort-template.cjs';
+import { findFiles } from './lib/utils.cjs';
 
 async function runSorter({ style, script, template }) {
   if (style.length > 0) {
@@ -16,7 +15,7 @@ async function runSorter({ style, script, template }) {
   }
 }
 
-module.exports = function action(pattern, isGlobs) {
+export default function action(pattern, isGlobs) {
   findFiles(pattern, isGlobs) // eslint-disable-next-line consistent-return
     .then((files) => {
       if (Object.values(files).flat().length > 0) {
@@ -25,4 +24,4 @@ module.exports = function action(pattern, isGlobs) {
       console.log('No files matching the pattern were found');
     })
     .catch(console.error);
-};
+}
