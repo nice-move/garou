@@ -1,7 +1,7 @@
-import sortScript from './lib/sort-script.cjs';
+import { sortScript } from './lib/sort-script.mjs';
 import sortStyle from './lib/sort-style/index.cjs';
-import sortTemplate from './lib/sort-template.cjs';
-import { findFiles } from './lib/utils.cjs';
+import { sortTemplate } from './lib/sort-template.mjs';
+import { findFiles } from './lib/utils.mjs';
 
 async function runSorter({ style, script, template }) {
   if (style.length > 0) {

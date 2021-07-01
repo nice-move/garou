@@ -1,3 +1,4 @@
 #!/bin/sh
 
+node bin.mjs .
 yarn nice-move lint
