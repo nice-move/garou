@@ -1,4 +1,5 @@
 #!/bin/sh
 
 node bin.mjs .
-yarn nice-move lint
+git add .
+npm run lint

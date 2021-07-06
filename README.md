@@ -35,7 +35,15 @@ npm install garou --save-dev
 ## Usage
 
 ```bash
-npx -c garou .
+npx --no-install garou .
+npx --no-install garou src
+npx --no-install garou **/foo.js
+```
+
+### Run without installation
+
+```sh
+npx garou .
 ```
 
 ## Configuration
@@ -47,8 +55,9 @@ npx -c garou .
     "import-groups": [
       // see: https://github.com/lydell/eslint-plugin-simple-import-sort#custom-grouping
       ["react", "react-dom"],
-      // shorthand -> ["^@external\\/"]
-      "^@external\\/"
+      // shorthand for ["^@external\\/"]
+      "^@external\\/",
+      "lodash"
     ]
   }
 }
@@ -56,4 +65,17 @@ npx -c garou .
 
 ## Tips
 
+### Using `garou` with `lint-staged`
+
+```json
+// package.json
+{
+  "lint-staged": {
+    "*": ["garou", "prettier", "eslint --fix"]
+  }
+}
+```
+
 Using `garou` might mess up your format, I suggest run `garou` before run `prettier`.
+
+Read more at the [lint-staged](https://github.com/okonet/lint-staged#configuration) repo.
