@@ -23,18 +23,19 @@ A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care a
 - Sort `tsx/ts/jsx/js/mjs/cjs` class members
 - Sort `tsx/ts/jsx/js/mjs/cjs` import
 - Sort `css/scss/less` properties
+- Add space to javascript comments
 - Handle empty line between code
 - ...other fixing
 
 ## Installation
 
-```bash
+```sh
 npm install garou --save-dev
 ```
 
 ## Usage
 
-```bash
+```sh
 npx --no-install garou .
 npx --no-install garou src
 npx --no-install garou **/foo.js
