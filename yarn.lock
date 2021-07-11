@@ -400,10 +400,10 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@nice-move/eslint-config-base@^0.5.49":
-  version "0.5.49"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.49.tgz#58e4e868a950e5ff077043bab939f00646885271"
-  integrity sha512-otiaZdYUHUeS66nATiIKGkYx2ljf/Y2iz67TOExf4ExxlxVfZ+Y56gQ1r1lG253AUDZxJ4L/0IieS+YB6kizgg==
+"@nice-move/eslint-config-base@^0.5.50":
+  version "0.5.50"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.50.tgz#1325a2211bb56f934cb2d04863edea2e7fc8c140"
+  integrity sha512-oQ3ScRf0yOWXCebxtx6Pb0HIGKZtqcNuUpDVkXGSYk3QMrfla2V/gP7AW6Ty6SVFFnR+s9H/OZAKMs3If/XP8A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.28.2"
     "@typescript-eslint/parser" "^4.28.2"
