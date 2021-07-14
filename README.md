@@ -80,3 +80,11 @@ npx garou .
 Using `garou` might mess up your format, I suggest run `garou` before run `prettier`.
 
 Read more at the [lint-staged](https://github.com/okonet/lint-staged#configuration) repo.
+
+## Inspiration
+
+This project is inspired by [sortier](https://snowcoders.github.io/sortier/).
+
+## Related
+
+- [nice-move](https://github.com/nice-move/nice-move)
