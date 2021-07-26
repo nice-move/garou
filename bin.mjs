@@ -13,5 +13,5 @@ new Cheetor('./package.json', import.meta.url)
     return cli;
   })
   .setup(({ _ }) => {
-    action(_, true);
+    action(_);
   });
