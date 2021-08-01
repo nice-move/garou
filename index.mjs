@@ -1,5 +1,5 @@
-import { handleConfigJSON } from './lib/handle-config-json.mjs';
-import { sortScript } from './lib/sort-script.mjs';
+import { handleJSON } from './lib/handle-json.mjs';
+import { handleScript } from './lib/handle-script.mjs';
 import sortStyle from './lib/sort-style/index.cjs';
 import { sortTemplate } from './lib/sort-template.mjs';
 import { findFiles } from './lib/utils.mjs';
@@ -9,13 +9,13 @@ async function runSorter({ style, script, template, configJSON }) {
     await sortStyle(style);
   }
   if (script.length > 0) {
-    await sortScript(script);
+    await handleScript(script);
   }
   if (template.length > 0) {
     await sortTemplate(template);
   }
   if (configJSON.length > 0) {
-    await handleConfigJSON(configJSON);
+    await handleJSON(configJSON);
   }
 }
 
