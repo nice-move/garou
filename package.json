@@ -54,7 +54,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.11.0",
     "eslint-plugin-unicorn": "^34.0.1",
-    "eslint-plugin-vue": "^7.15.0",
+    "eslint-plugin-vue": "^7.15.1",
     "fs-chain": "^8.1.0",
     "globby": "^12.0.0",
     "rehype": "^11.0.0",
@@ -64,11 +64,11 @@
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.27",
+    "@nice-move/cli": "^0.5.28",
     "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-base": "^0.5.56",
+    "@nice-move/eslint-config-base": "^0.5.58",
     "@nice-move/prettier-config": "^0.4.13",
-    "@nice-move/stylelint-config": "^0.5.9",
+    "@nice-move/stylelint-config": "^0.5.10",
     "commitlint": "^13.1.0",
     "eslint": "^7.32.0",
     "prettier": "^2.3.2",
