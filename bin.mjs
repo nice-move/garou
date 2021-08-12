@@ -10,8 +10,10 @@ new Cheetor('./package.json', import.meta.url)
       .usage('Usage: $0 .')
       .usage('Usage: $0 src')
       .usage('Usage: $0 **/foo.js');
+
     return cli;
   })
-  .setup(({ _ }) => {
-    action(_);
+  .command('$0 [pattern..]', '')
+  .setup(({ pattern = [] }) => {
+    action(pattern);
   });

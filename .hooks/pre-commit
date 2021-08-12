@@ -1,5 +1,5 @@
 #!/bin/sh
 
-node bin.mjs .
+npn run garou .
 git add .
 npm run lint
