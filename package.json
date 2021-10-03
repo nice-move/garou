@@ -45,13 +45,13 @@
     "prepare": "git config core.hooksPath .hooks"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.31.2",
+    "@typescript-eslint/parser": "^4.32.0",
     "cheetor": "^0.12.1",
     "eslint": "^7.32.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsonc": "^1.7.0",
-    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.11.0",
     "eslint-plugin-unicorn": "^35.0.0",
@@ -67,10 +67,10 @@
   "devDependencies": {
     "@nice-move/cli": "^0.5.29",
     "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-base": "^0.5.62",
+    "@nice-move/eslint-config-base": "^0.5.63",
     "@nice-move/prettier-config": "^0.4.14",
     "@nice-move/stylelint-config": "^0.5.11",
-    "commitlint": "^13.1.0",
+    "commitlint": "^13.2.0",
     "eslint": "^7.32.0",
     "prettier": "^2.4.1",
     "stylelint": "^13.13.1",
