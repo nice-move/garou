@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.40",
+  "version": "0.1.41",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -45,7 +45,7 @@
     "prepare": "git config core.hooksPath .hooks"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.32.0",
+    "@typescript-eslint/parser": "^4.33.0",
     "cheetor": "^0.12.1",
     "eslint": "^7.32.0",
     "eslint-plugin-html": "^6.2.0",
@@ -70,7 +70,7 @@
     "@nice-move/eslint-config-base": "^0.5.63",
     "@nice-move/prettier-config": "^0.4.14",
     "@nice-move/stylelint-config": "^0.5.11",
-    "commitlint": "^13.2.0",
+    "commitlint": "^13.2.1",
     "eslint": "^7.32.0",
     "prettier": "^2.4.1",
     "stylelint": "^13.13.1",

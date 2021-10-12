@@ -14,7 +14,7 @@ Do thing what heroes didn't do.
 
 ## Features
 
-A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care about. Offering better code comparing when `git diff`.
+A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, what `prettier` didn't care about. Offering better code comparing for `git diff`.
 
 - Sort `html/htm` attributes
 - Sort `jsx/tsx` props
@@ -23,8 +23,7 @@ A codebase refactor, take care what `eslint/stylelint/prettier` shouldn't care a
 - Sort `tsx/ts/jsx/js/mjs/cjs` class members
 - Sort `tsx/ts/jsx/js/mjs/cjs` import
 - Sort `css/scss/less` properties
-- Add space to javascript comments
-- Handle empty line between code
+- Handle whitespace, empty line between code
 - ...other fixing
 
 ## Installation
