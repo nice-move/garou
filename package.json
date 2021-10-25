@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.1.41",
+  "version": "0.1.42",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -45,17 +45,17 @@
     "prepare": "git config core.hooksPath .hooks"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.33.0",
+    "@typescript-eslint/parser": "^5.1.0",
     "cheetor": "^0.12.1",
     "eslint": "^7.32.0",
     "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsonc": "^1.7.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-sort-class-members": "^1.11.0",
-    "eslint-plugin-unicorn": "^35.0.0",
-    "eslint-plugin-vue": "^7.18.0",
+    "eslint-plugin-sort-class-members": "^1.12.0",
+    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-vue": "^7.20.0",
     "fs-chain": "^8.1.0",
     "globby": "^12.0.2",
     "rehype": "^12.0.0",
@@ -69,17 +69,29 @@
     "@nice-move/commitlint-config": "^0.2.0",
     "@nice-move/eslint-config-base": "^0.5.63",
     "@nice-move/prettier-config": "^0.4.14",
-    "@nice-move/stylelint-config": "^0.5.11",
+    "@nice-move/stylelint-config": "^0.5.13",
     "commitlint": "^13.2.1",
     "eslint": "^7.32.0",
     "prettier": "^2.4.1",
     "stylelint": "^13.13.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.4"
   },
   "peerDependencies": {
-    "typescript": "^4.3.5"
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "typescript": "^4.4.4"
   },
   "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    },
+    "prettier": {
+      "optional": true
+    },
+    "stylelint": {
+      "optional": true
+    },
     "typescript": {
       "optional": true
     }
