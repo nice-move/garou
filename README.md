@@ -67,7 +67,7 @@ npx garou .
 
 ### Using `garou` with `lint-staged`
 
-```json
+```jsonc
 // package.json
 {
   "lint-staged": {
