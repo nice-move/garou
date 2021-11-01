@@ -1,10 +1,9 @@
-import { handleJSON } from './lib/handle-json.mjs';
 import { handleScript } from './lib/handle-script.mjs';
 import { handleHtml } from './lib/handle-html.mjs';
 import { handleStyle } from './lib/sort-style/index.mjs';
 import { findFiles } from './lib/utils.mjs';
 
-async function runSorter({ style, script, html, configJSON }) {
+async function runSorter({ style, script, html }) {
   if (style.length > 0) {
     await handleStyle(style);
   }
@@ -13,9 +12,6 @@ async function runSorter({ style, script, html, configJSON }) {
   }
   if (html.length > 0) {
     await handleHtml(html);
-  }
-  if (configJSON.length > 0) {
-    await handleJSON(configJSON);
   }
 }
 
