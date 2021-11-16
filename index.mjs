@@ -1,5 +1,5 @@
-import { handleScript } from './lib/handle-script.mjs';
 import { handleHtml } from './lib/handle-html.mjs';
+import { handleScript } from './lib/handle-script.mjs';
 import { handleStyle } from './lib/sort-style/index.mjs';
 import { findFiles } from './lib/utils.mjs';
 
