@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -8,14 +8,15 @@
     "email": "airkro@qq.com"
   },
   "keywords": [
-    "code",
-    "config",
     "css",
     "eslint",
     "format",
+    "formatter",
     "garou",
     "html",
     "javascript",
+    "markdown",
+    "nice-move",
     "prettier",
     "react",
     "scss",
@@ -57,6 +58,7 @@
     "eslint-plugin-sort-class-members": "^1.14.0",
     "eslint-plugin-unicorn": "^38.0.1",
     "eslint-plugin-vue": "^8.0.3",
+    "espree": "^9.0.0",
     "fs-chain": "^8.1.1",
     "globby": "^12.0.2",
     "postcss": "^8.3.11",
