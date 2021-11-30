@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* stylelint-disable block-no-empty, unit-no-unknown */
+      body {
+        width: 0;
+        height: 2;
+      }
+
+      div::placeholder {
+        display: block;
+        appearance: flex;
+        color: #ffffff;
+        opacity: 0.5;
+      }
+
+      /* comment */
+      div::before {
+        --foo: hsl(198deg 28% 50%);
+
+        color: rgb(255 255 255 / 50%);
+
+        @media (min-device-pixel-ratio > 1) {
+        }
+      }
+
+      @keyframes {
+        0% {
+          transform: calc(1px + 2px);
+        }
+      }
+    </style>
+  </head>
+  <body class="" id="">
+    <script>
+      /* This is a comment with no whitespace at the beginning */
+      import { foo, z } from 'bar';
+
+      class A {
+        constructor() {}
+
+        a() {}
+      }
+
+      function a() {}
+
+      export default {
+        data() {},
+        a: `${5 ** 2}`,
+        kk: '444"',
+      };
+    </script>
+  </body>
+</html>

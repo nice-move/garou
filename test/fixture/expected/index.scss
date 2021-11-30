@@ -1,0 +1,40 @@
+/* stylelint-disable scss/function-quote-no-quoted-strings-inside, scss/no-global-function-names */
+/* stylelint-disable block-no-empty, unit-no-unknown */
+body {
+  width: 0;
+  height: 2;
+
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+
+// s
+@include main();
+
+@if $r {
+  display: unquote('block');
+
+  $d: 3;
+
+  content: quote('left');
+}

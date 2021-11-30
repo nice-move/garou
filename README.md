@@ -16,14 +16,16 @@ Do thing what heroes didn't do.
 
 A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, what `prettier` didn't care about. Offering better code comparing for `git diff`.
 
+- Handle `tsx/jsx/vue` self closing
+- Handle text case from `css/scss/less`
+- Remove vendor prefix from `css/scss/less`
+- Handle whitespace, empty line between code
+- Sort `css/scss/less` properties
 - Sort `html/htm` attributes
 - Sort `jsx/tsx` props
-- Sort `vue` component properties / attributes
-- Handle `jsx/vue` self closing
 - Sort `tsx/ts/jsx/js/mjs/cjs` class members
-- Sort `tsx/ts/jsx/js/mjs/cjs` import
-- Sort `css/scss/less` properties
-- Handle whitespace, empty line between code
+- Sort `tsx/ts/jsx/js/mjs/cjs` import / export
+- Sort `vue` component properties / attributes
 - ...other fixing
 
 ## Installation
@@ -58,7 +60,8 @@ npx garou .
       // shorthand for ["^@external\\/"]
       "^@external\\/",
       "lodash"
-    ]
+    ],
+    "ignore": ["fixture/**"]
   }
 }
 ```

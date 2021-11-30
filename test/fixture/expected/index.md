@@ -1,0 +1,420 @@
+# f
+
+```js
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a() {}
+
+export default {
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+```
+
+```cjs
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a() {}
+
+export default {
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+```
+
+```mjs
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a() {}
+
+export default {
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+```
+
+```jsx
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a() {}
+
+export default {
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+
+const d = (
+  <R a={1} df={true} prop="Hello world">
+    {'Hello world'}
+  </R>
+);
+```
+
+```ts
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a(t: string) {}
+
+export default {
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+```
+
+```tsx
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a(o: string) {}
+
+export default {
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+
+const d = (
+  <R a={1} df={true} prop="Hello world">
+    {'Hello world'}
+  </R>
+);
+```
+
+```vue
+<template>
+  <!-- jj -->
+  <!-- ✗ BAD -->
+  <!--
+    ✗ BAD
+    d
+  -->
+  <img id="" class="" data-id="" />
+</template>
+
+<script>
+/* This is a comment with no whitespace at the beginning */
+import { foo, z } from 'bar';
+
+class A {
+  constructor() {}
+
+  a() {}
+}
+
+function a() {}
+
+export default {
+  name: 'd',
+  data() {},
+  a: `${5 ** 2}`,
+  kk: '444"'
+};
+</script>
+
+<style>
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable block-no-empty, unit-no-unknown */
+body {
+  width: 0;
+  height: 2;
+}
+
+div::placeholder {
+  display: block;
+  appearance: flex;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+</style>
+
+<style lang="less">
+body {
+  width: 0;
+  height: 2;
+
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+</style>
+
+<style lang="scss">
+body {
+  width: 0;
+  height: 2;
+
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+
+// s
+@include main();
+
+@if $r {
+  display: unquote('block');
+
+  $d: 3;
+
+  content: 'left';
+}
+</style>
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 0;
+        height: 2;
+      }
+
+      div::placeholder {
+        display: block;
+        appearance: flex;
+        color: #ffffff;
+        opacity: 0.5;
+      }
+
+      /* comment */
+      div::before {
+        --foo: hsl(198deg 28% 50%);
+
+        color: rgb(255 255 255 / 50%);
+
+        @media (min-device-pixel-ratio > 1) {
+        }
+      }
+
+      @keyframes {
+        0% {
+          transform: calc(1px + 2px);
+        }
+      }
+    </style>
+  </head>
+  <body id="" class="">
+    <script>
+      /* This is a comment with no whitespace at the beginning */
+      import { foo, z } from 'bar';
+
+      class A {
+        constructor() {}
+
+        a() {}
+      }
+
+      function a() {}
+
+      export default {
+        data() {},
+        a: `${5 ** 2}`,
+        kk: '444"'
+      };
+    </script>
+  </body>
+</html>
+```
+
+```css
+body {
+  width: 0;
+  height: 2;
+}
+
+div::placeholder {
+  display: block;
+  appearance: flex;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+```
+
+```scss
+body {
+  width: 0;
+  height: 2;
+
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+
+// s
+@include main();
+
+@if $r {
+  display: unquote('block');
+
+  $d: 3;
+
+  content: 'left';
+}
+```
+
+```less
+body {
+  width: 0;
+  height: 2;
+
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
+
+/* comment */
+div::before {
+  --foo: hsl(198deg 28% 50%);
+
+  color: rgb(255 255 255 / 50%);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+```

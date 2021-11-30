@@ -30,7 +30,7 @@ const mapper = () =>
         ])
         .map(([index, key, path]) => [
           `import ${index} from '${path}';`,
-          `  '${key}': ${index},`,
+          `  '${key}': ${index}.default || ${index},`,
         ]),
     )
     .then((group) =>

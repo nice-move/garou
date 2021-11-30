@@ -1,5 +1,6 @@
 #!/bin/sh
 
-npn run garou .
+npm run garou .
 git add .
 npm run lint
+npm run test:dev
