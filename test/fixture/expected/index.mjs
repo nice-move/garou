@@ -1,6 +1,9 @@
 // @ts-nocheck
 /* This is a comment with no whitespace at the beginning */
+import 'll';
+
 import { foo, z } from 'bar';
+import n from 'nn';
 
 class A {
   constructor() {}
@@ -9,6 +12,10 @@ class A {
 }
 
 function a() {}
+
+function x() {}
+
+const y = [];
 
 export default {
   data() {},

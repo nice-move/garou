@@ -2,39 +2,39 @@ import test from 'ava';
 
 import { Test } from './helper/lib.mjs';
 
-test('js', async (t) => {
+test.serial('js', async (t) => {
   await Test(t, 'index.js');
 });
 
-test('jsx', async (t) => {
+test.serial('jsx', async (t) => {
   await Test(t, 'index.jsx');
 });
 
-test('ts', async (t) => {
+test.serial('ts', async (t) => {
   await Test(t, 'index.ts');
 });
 
-test('tsx', async (t) => {
+test.serial('tsx', async (t) => {
   await Test(t, 'index.tsx');
 });
 
-test('cjs', async (t) => {
+test.serial('cjs', async (t) => {
   await Test(t, 'index.cjs');
 });
 
-test('mjs', async (t) => {
+test.serial('mjs', async (t) => {
   await Test(t, 'index.mjs');
 });
 
-test('css', async (t) => {
+test.serial('css', async (t) => {
   await Test(t, 'index.css');
 });
 
-test('less', async (t) => {
+test.serial('less', async (t) => {
   await Test(t, 'index.less');
 });
 
-test('scss', async (t) => {
+test.serial('scss', async (t) => {
   await Test(t, 'index.scss');
 });
 
