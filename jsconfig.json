@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "checkJs": true,
-    "module": "es2020",
-    "target": "es2021",
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "target": "es2021"
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -2,63 +2,162 @@
 
 ```js
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
+import { kde } from 'nn';
 function a() {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`
+  kk: `444"`,
 };
+
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 ```
 
 ```cjs
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
+import { kde } from 'nn';
 function a() {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`
+  kk: `444"`,
 };
+
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 ```
 
 ```mjs
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
+import { kde } from 'nn';
 function a() {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`
+  kk: `444"`,
 };
+
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 ```
 
 ```jsx
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
+import { kde } from 'nn';
 function a() {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`
+  kk: `444"`,
 };
 
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 const d = (
   <R prop={'Hello world'} df a={1}>
     {'Hello world'}
@@ -68,33 +167,82 @@ const d = (
 
 ```ts
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
+import { kde } from 'nn';
 function a(t: string) {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`
+  kk: `444"`,
 };
+
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 ```
 
 ```tsx
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
-function a(o: string) {}
+import { kde } from 'nn';
+function a(t: string) {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`
+  kk: `444"`,
 };
 
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 const d = (
   <R prop={'Hello world'} df a={1}>
     {'Hello world'}
@@ -116,21 +264,45 @@ const d = (
 </template>
 <script>
 /*This is a comment with no whitespace at the beginning */
+'use strict';
 import { z, foo as foo } from 'bar';
+import 'll';
+import n from 'nn';
+import ddd from './ss';
+const k = [];
 class A {
   a() {}
   constructor() {}
 }
+import { kde } from 'nn';
 function a() {}
+function x() {
+  if (xsd) {
+  }
+}
+const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
   kk: `444"`,
-  name: 'd'
+  name: 'd',
 };
+
+import c from 'vvv';
+export { e } from '../..';
+
+export { h } from 'x';
+
+export { xxxx, jkjk } from 'c';
+export { g } from '.';
+if (ytt) {
+} else {
+}
+export function aaaaa() {}
+if (xsd) {
+}
 </script>
 <style>
-/* stylelint-disable at-rule-no-unknown */
 /* stylelint-disable block-no-empty, unit-no-unknown */
 body {
   height: 2;
@@ -158,6 +330,7 @@ div:before {
 </style>
 
 <style lang="less">
+/* stylelint-disable block-no-empty, unit-no-unknown */
 body {
   height: 2;
   width: 0px;
@@ -184,6 +357,7 @@ div:before {
 </style>
 
 <style lang="scss">
+/* stylelint-disable scss/function-quote-no-quoted-strings-inside, scss/no-global-function-names */
 body {
   height: 2;
   width: 0px;

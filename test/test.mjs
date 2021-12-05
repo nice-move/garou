@@ -38,10 +38,6 @@ test.serial('scss', async (t) => {
   await Test(t, 'index.scss');
 });
 
-test.serial('md', async (t) => {
-  await Test(t, 'index.md');
-});
-
 test.serial('html', async (t) => {
   await Test(t, 'index.html');
 });
@@ -52,4 +48,8 @@ test.serial('htm', async (t) => {
 
 test.serial('vue', async (t) => {
   await Test(t, 'index.vue');
+});
+
+test.serial('md', async (t) => {
+  await Test(t, 'index.md');
 });
