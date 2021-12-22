@@ -22,7 +22,7 @@ const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`,
+  kk: `444"`
 };
 
 import c from 'vvv';
@@ -62,7 +62,7 @@ const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`,
+  kk: `444"`
 };
 
 import c from 'vvv';
@@ -102,7 +102,7 @@ const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`,
+  kk: `444"`
 };
 
 import c from 'vvv';
@@ -142,7 +142,7 @@ const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`,
+  kk: `444"`
 };
 
 import c from 'vvv';
@@ -187,7 +187,7 @@ const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`,
+  kk: `444"`
 };
 
 import c from 'vvv';
@@ -227,7 +227,7 @@ const y = [];
 export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
-  kk: `444"`,
+  kk: `444"`
 };
 
 import c from 'vvv';
@@ -285,7 +285,7 @@ export default {
   data: function () {},
   a: Math.pow(5, 2) + '',
   kk: `444"`,
-  name: 'd',
+  name: 'd'
 };
 
 import c from 'vvv';
@@ -330,7 +330,6 @@ div:before {
 </style>
 
 <style lang="less">
-/* stylelint-disable block-no-empty, unit-no-unknown */
 body {
   height: 2;
   width: 0px;
@@ -357,7 +356,6 @@ div:before {
 </style>
 
 <style lang="scss">
-/* stylelint-disable scss/function-quote-no-quoted-strings-inside, scss/no-global-function-names */
 body {
   height: 2;
   width: 0px;

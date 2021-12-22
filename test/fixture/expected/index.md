@@ -396,7 +396,6 @@ if (xsd) {
 </script>
 
 <style>
-/* stylelint-disable at-rule-no-unknown */
 /* stylelint-disable block-no-empty, unit-no-unknown */
 body {
   width: 0;
@@ -414,7 +413,7 @@ div::placeholder {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgb(255 255 255 / 50%);
+  color: rgba(255, 255, 255, 50%);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -444,7 +443,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgb(255 255 255 / 50%);
+  color: rgba(255, 255, 255, 50%);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -474,7 +473,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgb(255 255 255 / 50%);
+  color: rgba(255, 255, 255, 50%);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -520,7 +519,7 @@ div::before {
       div::before {
         --foo: hsl(198deg 28% 50%);
 
-        color: rgb(255 255 255 / 50%);
+        color: rgba(255, 255, 255, 50%);
 
         @media (min-device-pixel-ratio > 1) {
         }
@@ -573,7 +572,7 @@ div::placeholder {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgb(255 255 255 / 50%);
+  color: rgba(255, 255, 255, 50%);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -603,7 +602,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgb(255 255 255 / 50%);
+  color: rgba(255, 255, 255, 50%);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -644,7 +643,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgb(255 255 255 / 50%);
+  color: rgba(255, 255, 255, 50%);
 
   @media (min-device-pixel-ratio > 1) {
   }
