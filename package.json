@@ -65,7 +65,7 @@
     "@nice-move/eslint-config-base": "^0.6.0",
     "@nice-move/prettier-config": "^0.5.1",
     "@nice-move/stylelint-config": "^0.6.13",
-    "ava": "^4.0.0",
+    "ava": "^4.0.1",
     "cheetor": "^0.12.2",
     "commitlint": "^16.0.1",
     "eslint": "^8.6.0",
