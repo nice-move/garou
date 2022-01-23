@@ -22,8 +22,16 @@ test.serial('cjs', async (t) => {
   await Test(t, 'index.cjs');
 });
 
+test.serial('cts', async (t) => {
+  await Test(t, 'index.cts');
+});
+
 test.serial('mjs', async (t) => {
   await Test(t, 'index.mjs');
+});
+
+test.serial('mts', async (t) => {
+  await Test(t, 'index.mts');
 });
 
 test.serial('css', async (t) => {

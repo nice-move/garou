@@ -1238,10 +1238,10 @@
     prettier-package-json "^2.6.0"
     sort-keys "^4.2.0"
 
-"@nice-move/stylelint-config@^0.6.13":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@nice-move/stylelint-config/-/stylelint-config-0.6.13.tgz#7faa4b63b5aea8e1ea8c6a16b2def68521c26390"
-  integrity sha512-K2U+tRt0DurirFwkD3ezR4SHmrwgt0uWl7k9bI8jmJi1JV/jqjg0TTzUXLlXvpDMIhRmX5OrkidVfNRxF2Y8UQ==
+"@nice-move/stylelint-config@^0.6.14":
+  version "0.6.14"
+  resolved "https://registry.yarnpkg.com/@nice-move/stylelint-config/-/stylelint-config-0.6.14.tgz#25c0cb07091d4c7bb3239c1362f31f2cb105c986"
+  integrity sha512-0uZjIH4ixRK1wte8Fsjb6z2kJvasbNs+GCof0ju79c+MpWd7rUZnGztIDAG863bNA0JEA4rqJcENPcw1j4mDwg==
   dependencies:
     postcss "^8.4.5"
     postcss-html "^1.3.0"
@@ -1249,6 +1249,7 @@
     postcss-markdown "^1.2.0"
     settingz "^0.1.5"
     stylelint-config-prettier "^9.0.3"
+    stylelint-config-prettier-scss "^0.0.1"
     stylelint-config-recommended-scss "^5.0.2"
     stylelint-config-standard "^24.0.0"
     stylelint-declaration-block-no-ignored-properties "^2.5.0"
@@ -3658,7 +3659,7 @@ globalyzer@0.1.0:
   resolved "https://registry.yarnpkg.com/globalyzer/-/globalyzer-0.1.0.tgz#cb76da79555669a1519d5a8edf093afaa0bf1465"
   integrity sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==
 
-"globby12@npm:globby@^12.2.0":
+"globby12@npm:globby@^12.2.0", globby@^12.0.2:
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-12.2.0.tgz#2ab8046b4fba4ff6eede835b29f678f90e3d3c22"
   integrity sha512-wiSuFQLZ+urS9x2gGPl1H5drc5twabmm4m2gTR27XDFyjUHJUNsS8o/2aKyIF6IoBaR630atdher0XJ5g6OMmA==
@@ -3681,18 +3682,6 @@ globby@^11.0.1, globby@^11.0.4:
     ignore "^5.1.4"
     merge2 "^1.3.0"
     slash "^3.0.0"
-
-globby@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-12.0.2.tgz#53788b2adf235602ed4cabfea5c70a1139e1ab11"
-  integrity sha512-lAsmb/5Lww4r7MM9nCCliDZVIKbZTavrsunAsHLr9oHthrZP1qi7/gAnHOsUs9bLvEt2vKVJhHmxuL7QbDuPdQ==
-  dependencies:
-    array-union "^3.0.1"
-    dir-glob "^3.0.1"
-    fast-glob "^3.2.7"
-    ignore "^5.1.8"
-    merge2 "^1.4.1"
-    slash "^4.0.0"
 
 globjoin@^0.1.4:
   version "0.1.4"
@@ -6587,7 +6576,14 @@ stylehacks@^5.0.1:
     browserslist "^4.16.0"
     postcss-selector-parser "^6.0.4"
 
-stylelint-config-prettier@^9.0.3:
+stylelint-config-prettier-scss@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier-scss/-/stylelint-config-prettier-scss-0.0.1.tgz#22feaa28c6ca07e74be34c8506219fa4e2c34886"
+  integrity sha512-lBAYG9xYOh2LeWEPC/64xeUxwOTnQ8nDyBijQoWoJb10/bMGrUwnokpt8jegGck2Vbtxh6XGwH63z5qBcVHreQ==
+  dependencies:
+    stylelint-config-prettier ">=9.0.3"
+
+stylelint-config-prettier@>=9.0.3, stylelint-config-prettier@^9.0.3:
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.3.tgz#0dccebeff359dcc393c9229184408b08964d561c"
   integrity sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==
