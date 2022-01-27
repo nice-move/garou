@@ -318,7 +318,7 @@ DIV::-moz-placeholder {
 /*comment*/
 div:before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 50%);
   @media (-webkit-min-device-pixel-ratio>1) {
   }
 }
@@ -344,7 +344,7 @@ body {
 /*comment*/
 div:before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 50%);
   @media (-webkit-min-device-pixel-ratio>1) {
   }
 }
@@ -370,7 +370,7 @@ body {
 /*comment*/
 div:before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 50%);
   @media (-webkit-min-device-pixel-ratio>1) {
   }
 }
@@ -379,13 +379,10 @@ div:before {
     -webkit-transform: Calc(1px+2px);
   }
 }
-// s
-@include main;
-
 @if ($r) {
-  display: unquote('block');
   $d: 3;
-  content: quote('left');
+  // s
+  @include main;
 }
 </style>
 ```
@@ -409,7 +406,7 @@ div:before {
       /*comment*/
       div:before {
         --foo: hsl(198deg 28% 50%);
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 50%);
         @media (-webkit-min-device-pixel-ratio>1) {
         }
       }
@@ -454,7 +451,7 @@ DIV::-moz-placeholder {
 /*comment*/
 div:before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 50%);
   @media (-webkit-min-device-pixel-ratio>1) {
   }
 }
@@ -480,7 +477,7 @@ body {
 /*comment*/
 div:before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 50%);
   @media (-webkit-min-device-pixel-ratio>1) {
   }
 }
@@ -489,13 +486,11 @@ div:before {
     -webkit-transform: Calc(1px+2px);
   }
 }
-// s
-@include main;
-
 @if ($r) {
-  display: unquote('block');
   $d: 3;
-  content: quote('left');
+
+  // s
+  @include main;
 }
 ```
 
@@ -514,7 +509,7 @@ body {
 /*comment*/
 div:before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 50%);
   @media (-webkit-min-device-pixel-ratio>1) {
   }
 }

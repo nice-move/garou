@@ -65,88 +65,97 @@ if (xsd) {
 <style>
 /* stylelint-disable block-no-empty, unit-no-unknown */
 body {
+  width: 0;
   height: 2;
-  width: 0px;
-}
-DIV::-moz-placeholder {
-  opacity: 50%;
-  -moz-appearance: -webkit-flex;
-  color: #fff;
-  display: BLOCK;
 }
 
-/*comment*/
-div:before {
+div::placeholder {
+  display: block;
+  appearance: flex;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+/* comment */
+div::before {
   --foo: hsl(198deg 28% 50%);
+
   color: rgba(255, 255, 255, 0.5);
-  @media (-webkit-min-device-pixel-ratio>1) {
+
+  @media (min-device-pixel-ratio > 1) {
   }
 }
-@-webkit-keyframes {
+
+@keyframes {
   0% {
-    -webkit-transform: Calc(1px+2px);
+    transform: calc(1px + 2px);
   }
 }
 </style>
 
 <style lang="less">
-/* stylelint-disable block-no-empty, unit-no-unknown */
 body {
+  width: 0;
   height: 2;
-  width: 0px;
 
-  DIV::-moz-placeholder {
-    opacity: 50%;
-    -moz-appearance: -webkit-flex;
-    color: #fff;
-    display: BLOCK;
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
   }
 }
-/*comment*/
-div:before {
+
+/* comment */
+div::before {
   --foo: hsl(198deg 28% 50%);
+
   color: rgba(255, 255, 255, 0.5);
-  @media (-webkit-min-device-pixel-ratio>1) {
+
+  @media (min-device-pixel-ratio > 1) {
   }
 }
-@-webkit-keyframes {
+
+@keyframes {
   0% {
-    -webkit-transform: Calc(1px+2px);
+    transform: calc(1px + 2px);
   }
 }
 </style>
 
 <style lang="scss">
-/* stylelint-disable scss/function-quote-no-quoted-strings-inside, scss/no-global-function-names */
 body {
+  width: 0;
   height: 2;
-  width: 0px;
 
-  DIV::-moz-placeholder {
-    opacity: 50%;
-    -moz-appearance: -webkit-flex;
-    color: #fff;
-    display: BLOCK;
+  div::placeholder {
+    display: block;
+    appearance: flex;
+    color: #ffffff;
+    opacity: 0.5;
   }
 }
-/*comment*/
-div:before {
+
+/* comment */
+div::before {
   --foo: hsl(198deg 28% 50%);
-  color: rgba(255, 255, 255, 0.5);
-  @media (-webkit-min-device-pixel-ratio>1) {
-  }
-}
-@-webkit-keyframes {
-  0% {
-    -webkit-transform: Calc(1px+2px);
-  }
-}
-// s
-@include main;
 
-@if ($r) {
-  display: unquote('block');
+  color: rgba(255, 255, 255, 0.5);
+
+  @media (min-device-pixel-ratio > 1) {
+  }
+}
+
+@keyframes {
+  0% {
+    transform: calc(1px + 2px);
+  }
+}
+
+@if $r {
   $d: 3;
-  content: quote('left');
+
+  // s
+  @include main();
 }
 </style>

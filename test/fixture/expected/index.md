@@ -413,7 +413,7 @@ div::placeholder {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgba(255, 255, 255, 50%);
+  color: rgba(255, 255, 255, 0.5);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -443,7 +443,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgba(255, 255, 255, 50%);
+  color: rgba(255, 255, 255, 0.5);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -473,7 +473,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgba(255, 255, 255, 50%);
+  color: rgba(255, 255, 255, 0.5);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -485,15 +485,11 @@ div::before {
   }
 }
 
-// s
-@include main();
-
 @if $r {
-  display: unquote('block');
-
   $d: 3;
 
-  content: 'left';
+  // s
+  @include main();
 }
 </style>
 ```
@@ -519,7 +515,7 @@ div::before {
       div::before {
         --foo: hsl(198deg 28% 50%);
 
-        color: rgba(255, 255, 255, 50%);
+        color: rgba(255, 255, 255, 0.5);
 
         @media (min-device-pixel-ratio > 1) {
         }
@@ -572,7 +568,7 @@ div::placeholder {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgba(255, 255, 255, 50%);
+  color: rgba(255, 255, 255, 0.5);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -602,7 +598,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgba(255, 255, 255, 50%);
+  color: rgba(255, 255, 255, 0.5);
 
   @media (min-device-pixel-ratio > 1) {
   }
@@ -614,15 +610,11 @@ div::before {
   }
 }
 
-// s
-@include main();
-
 @if $r {
-  display: unquote('block');
-
   $d: 3;
 
-  content: 'left';
+  // s
+  @include main();
 }
 ```
 
@@ -643,7 +635,7 @@ body {
 div::before {
   --foo: hsl(198deg 28% 50%);
 
-  color: rgba(255, 255, 255, 50%);
+  color: rgba(255, 255, 255, 0.5);
 
   @media (min-device-pixel-ratio > 1) {
   }
