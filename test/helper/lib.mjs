@@ -34,6 +34,7 @@ function Format(filename) {
     'prettier',
     `test/helper/temp/${filename}`,
     '-w',
+    '-u',
   ]);
 }
 

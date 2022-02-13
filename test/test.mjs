@@ -1,6 +1,11 @@
+// eslint-disable-next-line import/no-unresolved
 import test from 'ava';
 
 import { Test } from './helper/lib.mjs';
+
+test.serial('yarn-lockfile', async (t) => {
+  await Test(t, 'yarn.lock');
+});
 
 test.serial('js', async (t) => {
   await Test(t, 'index.js');
