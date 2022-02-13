@@ -4,13 +4,10 @@ import { fileURLToPath } from 'url';
 import { promisify } from 'util';
 
 import { fs, Text } from 'fs-chain';
-import { getPkg } from 'settingz';
-
-const { source, main } = getPkg();
 
 const Exec = promisify(execFile);
 
-const bin = process.argv.includes('--build') ? main : source;
+const bin = process.argv.includes('--build') ? 'dist/index.cjs' : 'lib/cli.mjs';
 
 console.log('Bin:', bin);
 
