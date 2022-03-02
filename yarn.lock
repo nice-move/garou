@@ -1756,10 +1756,10 @@ format@^0.2.0:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-fs-chain@^8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/fs-chain/-/fs-chain-8.1.1.tgz#5aa21afe71cb30e3b497d46033883502311dd2e5"
-  integrity sha512-x7zUpPp3WtLGowpnF/wpoK45VMLpiTLQTtJwSCZQsVKmo9Gmhz7E5UMiQr4g6WpgVZQSq2BcrGO/6O/q2qW2Yg==
+fs-chain@^8.1.2:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/fs-chain/-/fs-chain-8.1.2.tgz#d6f03e4b43c0cf438c63e58ae750eef03478e9d7"
+  integrity sha512-f3pWkqyrhTFNY5AtdM7Han7ilNv5rVOegEpDSTYccyysLfzk0p00j5XMRYuBsQaDLxQFcbkO1u//W75mDJJ7Zw==
   dependencies:
     chalk "^4.1.2"
     fs-extra "^10.0.0"
