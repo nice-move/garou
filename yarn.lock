@@ -3566,6 +3566,11 @@ settingz@^0.1.5:
   resolved "https://registry.yarnpkg.com/settingz/-/settingz-0.1.5.tgz#83bde3b2e7eb34e661906492ab77a297a85490a9"
   integrity sha512-k4lA8Zeco6zyKuMQa57BnpyF9LwUIijM7ZTWQfNS9S0frOyCv6wNVLXvvY23a/w7rYoFQNIil9seX2dGBWXocw==
 
+settingz@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/settingz/-/settingz-0.1.7.tgz#e3366019601df6c9f742a383857c218ffdfd0053"
+  integrity sha512-4TzwZYfVzCTQkP12GRtBOTqbpNiSEoipELxRlrdKVqK2eaHgXHgmLSKqRZBrF4ZXBjpP1LFH51lZv2FiND1HCQ==
+
 shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
