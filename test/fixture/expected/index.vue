@@ -5,7 +5,7 @@
     ✗ BAD
     d
   -->
-  <img id="" class="" data-id="" />
+  <img id="" class="" data-id="" :l="{ a() {} }" />
 </template>
 
 <script>

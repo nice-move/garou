@@ -2,5 +2,5 @@
 
 npm run garou .
 git add .
-npm run lint
+npm run lint:staged
 npm run test:dev

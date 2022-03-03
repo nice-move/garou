@@ -7,7 +7,7 @@
 ✗ BAD
   d
   -->
-  <img data-id="" class="" id="" />
+  <img data-id="" class="" id="" :l="{ a: function () {} }" />
 </template>
 <script>
 /*This is a comment with no whitespace at the beginning */
