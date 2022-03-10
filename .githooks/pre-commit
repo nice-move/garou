@@ -1,6 +1,7 @@
 #!/bin/sh
 
+npm run build
+npm run test
 npm run garou .
 git add .
 npm run lint:staged
-npm run test:dev

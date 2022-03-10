@@ -3,11 +3,12 @@ import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { promisify } from 'util';
 
+// @ts-ignore
 import { fs, Text } from 'fs-chain';
 
 const Exec = promisify(execFile);
 
-const bin = process.argv.includes('--build') ? 'dist/index.cjs' : 'lib/cli.mjs';
+const bin = 'dist/cli.js';
 
 console.log('Bin:', bin);
 
@@ -50,14 +51,17 @@ function Delete(filename) {
 }
 
 export async function Test(t, filename) {
+  // @ts-ignore
   await Copy(filename);
 
   await Run(filename);
 
   await Format(filename);
 
+  // @ts-ignore
   const expected = await Expected(filename);
 
+  // @ts-ignore
   const result = await Result(filename);
 
   t.is(result.trim(), expected.trim());
