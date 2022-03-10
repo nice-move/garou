@@ -8,7 +8,7 @@ import { fs, Text } from 'fs-chain';
 
 const Exec = promisify(execFile);
 
-const bin = 'dist/cli.js';
+const bin = 'dist/cli.cjs';
 
 console.log('Bin:', bin);
 

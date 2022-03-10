@@ -50,15 +50,15 @@
     prompts "^2.4.2"
     yaml "^1.10.2"
 
-"@best-shot/core@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@best-shot/core/-/core-0.6.4.tgz#a199481c92f73ace18106da389d2827dd9ef3a5b"
-  integrity sha512-C8lyDUpmjxOtzjLXHT3QhQ9fIENIdk4EpKn9ITYLDK3OaObtY7fhJ0Xmmi58KORRrEI+nXPffL5kYq0Pk1IqjA==
+"@best-shot/core@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@best-shot/core/-/core-0.6.5.tgz#c0b5aae1e2d8d7c32a5b011988119eda0adfc638"
+  integrity sha512-u7U8jZdg7I6paNAm8q5La2xoXa22DmJKQazROf/frxh4LKNodmfoKSxkSmU1th35Ga0Gi0/fkPI1v4xq3/Ch4w==
   dependencies:
     "@best-shot/validator" "^0.2.0"
-    browserslist "^4.19.3"
+    browserslist "^4.20.0"
     case-sensitive-paths-webpack-plugin "^2.4.0"
-    chalk "^4.1.2"
+    chalk "^5.0.1"
     copy-webpack "^2.0.3"
     deepmerge "^4.2.2"
     ext-to-regexp "^0.1.0"
@@ -933,7 +933,7 @@ braces@^3.0.1, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@^4.14.5, browserslist@^4.19.3:
+browserslist@^4.14.5, browserslist@^4.20.0:
   version "4.20.0"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.20.0.tgz#35951e3541078c125d36df76056e94738a52ebe9"
   integrity sha512-bnpOoa+DownbciXj0jVGENf8VYQnE2LNWomhYuCsMmmx9Jd9lwq0WXODuwpSsp8AVdKM2/HorrzxAfbKvWTByQ==

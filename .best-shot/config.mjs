@@ -6,6 +6,9 @@ export const config = {
   },
   output: {
     path: 'dist',
+    library: {
+      type: 'commonjs2',
+    },
   },
   externals: {
     'postcss-styl': 'commonjs2 postcss-styl',
@@ -14,8 +17,15 @@ export const config = {
     sugarss: 'commonjs2 sugarss',
   },
   chain(chain) {
-    chain.output.library({
-      type: 'commonjs2',
+    chain.optimization.splitChunks({
+      cacheGroups: {
+        default: {
+          chunks: 'initial',
+          minChunks: 2,
+          name: 'common',
+          reuseExistingChunk: true,
+        },
+      },
     });
   },
 };

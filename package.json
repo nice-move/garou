@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -35,14 +35,14 @@
     "url": "https://github.com/nice-move/garou/issues"
   },
   "bin": {
-    "garou": "dist/cli.js"
+    "garou": "dist/cli.cjs"
   },
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "best-shot prod",
-    "garou": "node dist/cli.js",
+    "garou": "node dist/cli.cjs",
     "lint:staged": "nice-move lint staged",
     "prepare": "git config core.hooksPath .githooks",
     "prepublishOnly": "npm run lint:staged && npm run build && npm test",
@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@best-shot/cli": "^0.12.4",
-    "@best-shot/core": "^0.6.4",
+    "@best-shot/core": "^0.6.5",
     "@nice-move/cli": "^0.7.0",
     "@nice-move/eslint-config-base": "^0.6.2",
     "@nice-move/prettier-config": "^0.5.2",

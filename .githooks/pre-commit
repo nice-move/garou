@@ -1,7 +1,5 @@
 #!/bin/sh
 
-npm run build
-npm run test
+npm run prepublishOnly
 npm run garou .
 git add .
-npm run lint:staged
