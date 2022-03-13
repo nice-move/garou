@@ -15,6 +15,7 @@ export const config = {
     'postcss-sass': 'commonjs2 postcss-sass',
     eslint: 'commonjs2 eslint',
     sugarss: 'commonjs2 sugarss',
+    yargs: 'commonjs2 yargs',
   },
   chain(chain) {
     chain.optimization.splitChunks({
