@@ -1,14 +1,3 @@
-<template>
-  <!--jj-->
-  <!--
-✗ BAD
-  -->
-  <!--
-✗ BAD
-  d
-  -->
-  <img data-id="" class="" id="" :l="{ a: function () {} }" />
-</template>
 <script>
 /*This is a comment with no whitespace at the beginning */
 'use strict';
@@ -49,6 +38,17 @@ export function aaaaa() {}
 if (xsd) {
 }
 </script>
+<template>
+  <!--jj-->
+  <!--
+✗ BAD
+  -->
+  <!--
+✗ BAD
+  d
+  -->
+  <img data-id="" class="" id="" :l="{ a: function () {} }" />
+</template>
 <style>
 /* stylelint-disable block-no-empty, unit-no-unknown */
 body {

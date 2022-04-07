@@ -45,11 +45,8 @@ export default {
 };
 
 export { e } from '../..';
-
 export { g } from '.';
-
 export { jkjk, xxxx } from 'c';
-
 export { h } from 'x';
 
 if (ytt) {
