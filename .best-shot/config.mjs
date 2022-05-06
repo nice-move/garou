@@ -6,9 +6,6 @@ export const config = {
   },
   output: {
     path: 'dist',
-    library: {
-      type: 'commonjs2',
-    },
   },
   externals: {
     'postcss-styl': 'commonjs2 postcss-styl',
