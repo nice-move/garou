@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -49,20 +49,20 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.22.0",
-    "eslint-plugin-html": "^6.2.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "yargs": "^17.4.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.7.2",
-    "@nice-move/eslint-config-base": "^0.6.9",
-    "@nice-move/prettier-config": "^0.5.4",
-    "@nice-move/stylelint-config": "^0.6.17",
+    "@nice-move/cli": "^0.8.0",
+    "@nice-move/eslint-config-base": "^0.7.0",
+    "@nice-move/eslint-plugin-html": "0.0.0-beta.1",
+    "@nice-move/prettier-config": "^0.6.0",
+    "@nice-move/stylelint-config": "^0.7.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^4.2.0",
-    "best-shot": "^0.2.4",
+    "best-shot": "^0.2.5",
     "cheetor": "^0.12.6",
-    "eslint": "^8.14.0",
+    "eslint": "^8.15.0",
     "eslint-plugin-ava": "^13.2.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-markdown": "^2.2.1",
@@ -70,7 +70,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
     "eslint-plugin-vue": "^8.7.1",
-    "espree": "^9.3.1",
+    "espree": "^9.3.2",
     "fs-chain": "^8.2.1",
     "globby13": "npm:globby@13.1.1",
     "postcss": "^8.4.13",
@@ -91,7 +91,7 @@
     "yarn-deduplicate": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.14.0",
+    "eslint": "^8.13.0",
     "typescript": "^4.6.4"
   },
   "peerDependenciesMeta": {
@@ -100,7 +100,7 @@
     }
   },
   "engines": {
-    "node": "^14.17.0 || >=16.13.0"
+    "node": "^14.17.0 || ^16.13.0 || ^18.0.0"
   },
   "publishConfig": {
     "access": "public",
