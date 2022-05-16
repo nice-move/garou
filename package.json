@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.23.0",
-    "yargs": "^17.4.1"
+    "yargs": "^17.5.1"
   },
   "devDependencies": {
     "@nice-move/cli": "^0.8.0",
