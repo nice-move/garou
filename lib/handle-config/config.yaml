@@ -1,0 +1,81 @@
+root:
+  - openapi
+  - info
+  - jsonSchemaDialect
+  - servers
+  - paths
+  - webhooks
+  - components
+  - security
+  - tags
+  - externalDocs
+
+info:
+  - title
+  - summary
+  - description
+  - termsOfService
+  - contact
+  - license
+  - version
+
+info/license:
+  - name
+  - identifier
+  - url
+
+info/contact:
+  - name
+  - url
+  - email
+
+servers/*:
+  - url
+  - description
+  - variables
+
+servers/*/variables:
+  - enum
+  - default
+  - description
+
+components:
+  - schemas
+  - parameters
+  - headers
+  - responses
+  - requestBodies
+  - examples
+  - links
+  - callbacks
+  - securitySchemes
+
+components/parameters/*:
+  - name
+  - description
+  - in
+  - required
+  - deprecated
+  - allowEmptyValue
+  - schema
+
+components/requestBodies/*:
+  - description
+  - required
+  - content
+
+components/requestBodies/*/content/*:
+  - schema
+  - example
+  - examples
+  - encoding
+
+components/securitySchemes/*:
+  - type
+  - name
+  - description
+  - in
+  - scheme
+  - bearerFormat
+  - flows
+  - openIdConnectUrl

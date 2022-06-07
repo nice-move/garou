@@ -1,0 +1,5 @@
+openapi: 3.0.0
+info:
+  title: test
+  description: 123456789tt
+  version: 1

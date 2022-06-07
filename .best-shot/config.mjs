@@ -8,11 +8,11 @@ export const config = {
     path: 'dist',
   },
   externals: {
-    'postcss-styl': 'commonjs2 postcss-styl',
-    'postcss-sass': 'commonjs2 postcss-sass',
-    eslint: 'commonjs2 eslint',
-    sugarss: 'commonjs2 sugarss',
-    yargs: 'commonjs2 yargs',
+    'postcss-styl': 'node-commonjs postcss-styl',
+    'postcss-sass': 'node-commonjs postcss-sass',
+    eslint: 'node-commonjs eslint',
+    sugarss: 'node-commonjs sugarss',
+    yargs: 'node-commonjs yargs',
   },
   chain(chain) {
     chain.optimization.splitChunks({

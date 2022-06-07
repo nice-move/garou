@@ -28,6 +28,7 @@ A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, wh
 - Sort `vue` component properties / attributes
 - Dedupe yarn v1 lockfile
 - Remove cnpm cache from yarn v1 lockfile
+- Sort `OpenAPI Specification` config files
 - ...other fixing
 
 ## Installation

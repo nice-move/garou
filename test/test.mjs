@@ -10,6 +10,14 @@ test.serial('yarn-lockfile', async (t) => {
   await Test(t, 'yarn.lock');
 });
 
+test.serial('oas-json', async (t) => {
+  await Test(t, 'oas.json');
+});
+
+test.serial('oas-yaml', async (t) => {
+  await Test(t, 'oas.yaml');
+});
+
 test.serial('js', async (t) => {
   await Test(t, 'index.js');
 });
