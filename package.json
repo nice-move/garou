@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -73,6 +73,7 @@
     "espree": "^9.3.2",
     "fs-chain": "^8.2.1",
     "globby13": "npm:globby@13.1.1",
+    "micromatch": "^4.0.5",
     "object-traversal": "^1.0.1",
     "postcss": "^8.4.14",
     "postcss-html": "^1.4.1",
