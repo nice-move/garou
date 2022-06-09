@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.4.11",
+  "version": "0.4.12",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -85,7 +85,6 @@
     "rehype-sort-attributes": "^4.0.0",
     "settingz": "^0.2.0",
     "slash": "^4.0.0",
-    "sort-keys": "^5.0.0",
     "stylelint": "~14.3.0",
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "~4.1.0",

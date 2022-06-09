@@ -1,8 +1,56 @@
 {
-  "info": {
-    "description": "123456789tt",
-    "version": "1.0",
-    "title": "test"
+  "security": {},
+  "components": {
+    "responses": {
+      "201": {},
+      "default": {},
+      "400": {}
+    }
   },
-  "openapi": "3.0.0"
+  "webhooks": {},
+  "paths": {},
+  "jsonSchemaDialect": "",
+  "servers": [
+    {
+      "variables": {
+        "description": "",
+        "default": "",
+        "enum": ""
+      },
+      "description": "",
+      "url": ""
+    }
+  ],
+  "info": {
+    "termsOfService": "",
+    "description": "",
+    "version": "",
+    "title": "",
+    "license": {
+      "name": "",
+      "url": "",
+      "identifier": ""
+    },
+    "contact": {
+      "email": "",
+      "url": "",
+      "name": ""
+    },
+    "summary": ""
+  },
+  "openapi": "3.0.0",
+  "tags": [
+    {
+      "description": "",
+      "name": "",
+      "externalDocs": {
+        "description": "",
+        "url": ""
+      }
+    }
+  ],
+  "externalDocs": {
+    "description": "",
+    "url": ""
+  }
 }
