@@ -29,14 +29,1239 @@
       }
     }
   ],
-  "paths": {},
-  "webhooks": {},
+  "paths": {
+    "/h": {
+      "$ref": "",
+      "summary": "",
+      "description": "",
+      "servers": [
+        {
+          "url": "",
+          "description": "",
+          "variables": {
+            "enum": "",
+            "default": "",
+            "description": ""
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "description": "",
+          "in": "",
+          "required": "",
+          "deprecated": "",
+          "allowEmptyValue": "",
+          "style": "",
+          "explode": "",
+          "allowReserved": "",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "message": {
+                "format": "date",
+                "type": "string"
+              },
+              "code": {
+                "minimum": 100,
+                "type": "integer",
+                "maximum": 600
+              }
+            },
+            "required": []
+          },
+          "example": "",
+          "examples": {
+            "al": {
+              "summary": "",
+              "description": "",
+              "value": "",
+              "externalValue": ""
+            }
+          },
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "format": "date",
+                    "type": "string"
+                  },
+                  "code": {
+                    "minimum": 100,
+                    "type": "integer",
+                    "maximum": 600
+                  }
+                },
+                "required": []
+              },
+              "encoding": {},
+              "example": {},
+              "examples": {
+                "al": {
+                  "summary": "",
+                  "description": "",
+                  "value": "",
+                  "externalValue": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "get": {},
+      "post": "",
+      "put": {
+        "operationId": "",
+        "deprecated": "",
+        "summary": "",
+        "description": "",
+        "tags": "",
+        "externalDocs": {
+          "description": "",
+          "url": ""
+        },
+        "parameters": [
+          {
+            "name": "",
+            "description": "",
+            "in": "",
+            "required": "",
+            "deprecated": "",
+            "allowEmptyValue": "",
+            "style": "",
+            "explode": "",
+            "allowReserved": "",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "format": "date",
+                  "type": "string"
+                },
+                "code": {
+                  "minimum": 100,
+                  "type": "integer",
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "example": "",
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "format": "date",
+                      "type": "string"
+                    },
+                    "code": {
+                      "minimum": 100,
+                      "type": "integer",
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "requestBody": {
+          "required": "",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "format": "date",
+                    "type": "string"
+                  },
+                  "code": {
+                    "minimum": 100,
+                    "type": "integer",
+                    "maximum": 600
+                  }
+                },
+                "required": []
+              },
+              "encoding": {},
+              "example": {},
+              "examples": {
+                "al": {
+                  "summary": "",
+                  "description": "",
+                  "value": "",
+                  "externalValue": ""
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {},
+          "400": {
+            "description": "",
+            "headers": [
+              {
+                "name": "",
+                "description": "",
+                "in": "",
+                "required": "",
+                "deprecated": "",
+                "allowEmptyValue": "",
+                "style": "",
+                "explode": "",
+                "allowReserved": "",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "format": "date",
+                      "type": "string"
+                    },
+                    "code": {
+                      "minimum": 100,
+                      "type": "integer",
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "example": "",
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                },
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "message": {
+                          "format": "date",
+                          "type": "string"
+                        },
+                        "code": {
+                          "minimum": 100,
+                          "type": "integer",
+                          "maximum": 600
+                        }
+                      },
+                      "required": []
+                    },
+                    "encoding": {},
+                    "example": {},
+                    "examples": {
+                      "al": {
+                        "summary": "",
+                        "description": "",
+                        "value": "",
+                        "externalValue": ""
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "content": {
+              "application/json": {
+                "schema": {},
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            },
+            "links": {}
+          },
+          "default": {}
+        },
+        "callbacks": "",
+        "security": "",
+        "servers": [
+          {
+            "url": "",
+            "description": "",
+            "variables": {
+              "enum": "",
+              "default": "",
+              "description": ""
+            }
+          }
+        ]
+      },
+      "patch": "",
+      "delete": "",
+      "head": "",
+      "options": {},
+      "trace": ""
+    }
+  },
+  "webhooks": {
+    "/h": {
+      "$ref": "",
+      "summary": "",
+      "description": "",
+      "servers": [
+        {
+          "url": "",
+          "description": "",
+          "variables": {
+            "enum": "",
+            "default": "",
+            "description": ""
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "description": "",
+          "in": "",
+          "required": "",
+          "deprecated": "",
+          "allowEmptyValue": "",
+          "style": "",
+          "explode": "",
+          "allowReserved": "",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "message": {
+                "format": "date",
+                "type": "string"
+              },
+              "code": {
+                "minimum": 100,
+                "type": "integer",
+                "maximum": 600
+              }
+            },
+            "required": []
+          },
+          "example": "",
+          "examples": {
+            "al": {
+              "summary": "",
+              "description": "",
+              "value": "",
+              "externalValue": ""
+            }
+          },
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "format": "date",
+                    "type": "string"
+                  },
+                  "code": {
+                    "minimum": 100,
+                    "type": "integer",
+                    "maximum": 600
+                  }
+                },
+                "required": []
+              },
+              "encoding": {},
+              "example": {},
+              "examples": {
+                "al": {
+                  "summary": "",
+                  "description": "",
+                  "value": "",
+                  "externalValue": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "get": {},
+      "post": "",
+      "put": {
+        "operationId": "",
+        "deprecated": "",
+        "summary": "",
+        "description": "",
+        "tags": "",
+        "externalDocs": {
+          "description": "",
+          "url": ""
+        },
+        "parameters": [
+          {
+            "name": "",
+            "description": "",
+            "in": "",
+            "required": "",
+            "deprecated": "",
+            "allowEmptyValue": "",
+            "style": "",
+            "explode": "",
+            "allowReserved": "",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "format": "date",
+                  "type": "string"
+                },
+                "code": {
+                  "minimum": 100,
+                  "type": "integer",
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "example": "",
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "format": "date",
+                      "type": "string"
+                    },
+                    "code": {
+                      "minimum": 100,
+                      "type": "integer",
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "requestBody": {
+          "required": "",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "format": "date",
+                    "type": "string"
+                  },
+                  "code": {
+                    "minimum": 100,
+                    "type": "integer",
+                    "maximum": 600
+                  }
+                },
+                "required": []
+              },
+              "encoding": {},
+              "example": {},
+              "examples": {
+                "al": {
+                  "summary": "",
+                  "description": "",
+                  "value": "",
+                  "externalValue": ""
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {},
+          "400": {
+            "description": "",
+            "headers": [
+              {
+                "name": "",
+                "description": "",
+                "in": "",
+                "required": "",
+                "deprecated": "",
+                "allowEmptyValue": "",
+                "style": "",
+                "explode": "",
+                "allowReserved": "",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "format": "date",
+                      "type": "string"
+                    },
+                    "code": {
+                      "minimum": 100,
+                      "type": "integer",
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "example": "",
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                },
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "message": {
+                          "format": "date",
+                          "type": "string"
+                        },
+                        "code": {
+                          "minimum": 100,
+                          "type": "integer",
+                          "maximum": 600
+                        }
+                      },
+                      "required": []
+                    },
+                    "encoding": {},
+                    "example": {},
+                    "examples": {
+                      "al": {
+                        "summary": "",
+                        "description": "",
+                        "value": "",
+                        "externalValue": ""
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "content": {
+              "application/json": {
+                "schema": {},
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            },
+            "links": {}
+          },
+          "default": {}
+        },
+        "callbacks": "",
+        "security": "",
+        "servers": [
+          {
+            "url": "",
+            "description": "",
+            "variables": {
+              "enum": "",
+              "default": "",
+              "description": ""
+            }
+          }
+        ]
+      },
+      "patch": "",
+      "delete": "",
+      "head": "",
+      "options": {},
+      "trace": ""
+    }
+  },
   "components": {
+    "schemas": {
+      "ErrorModel": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "format": "date"
+          },
+          "code": {
+            "type": "integer",
+            "minimum": 100,
+            "maximum": 600
+          }
+        },
+        "required": []
+      }
+    },
+    "parameters": {
+      "ss": {
+        "name": "",
+        "description": "",
+        "in": "",
+        "required": "",
+        "deprecated": "",
+        "allowEmptyValue": "",
+        "style": "",
+        "explode": "",
+        "allowReserved": "",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "string",
+              "format": "date"
+            },
+            "code": {
+              "type": "integer",
+              "minimum": 100,
+              "maximum": 600
+            }
+          },
+          "required": []
+        },
+        "example": "",
+        "examples": {
+          "al": {
+            "summary": "",
+            "description": "",
+            "value": "",
+            "externalValue": ""
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "code": {
+                  "type": "integer",
+                  "minimum": 100,
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "encoding": {},
+            "example": {},
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "headers": {
+      "addv": {
+        "name": "",
+        "description": "",
+        "in": "",
+        "required": "",
+        "deprecated": "",
+        "allowEmptyValue": "",
+        "style": "",
+        "explode": "",
+        "allowReserved": "",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "string",
+              "format": "date"
+            },
+            "code": {
+              "type": "integer",
+              "minimum": 100,
+              "maximum": 600
+            }
+          },
+          "required": []
+        },
+        "example": "",
+        "examples": {
+          "al": {
+            "summary": "",
+            "description": "",
+            "value": "",
+            "externalValue": ""
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "code": {
+                  "type": "integer",
+                  "minimum": 100,
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "encoding": {},
+            "example": {},
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "requestBodies": {
+      "kkk": {
+        "required": "",
+        "description": "",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "code": {
+                  "type": "integer",
+                  "minimum": 100,
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "encoding": {},
+            "example": {},
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            }
+          }
+        }
+      }
+    },
     "responses": {
       "201": {},
-      "400": {},
+      "400": {
+        "description": "",
+        "headers": [
+          {
+            "name": "",
+            "description": "",
+            "in": "",
+            "required": "",
+            "deprecated": "",
+            "allowEmptyValue": "",
+            "style": "",
+            "explode": "",
+            "allowReserved": "",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "code": {
+                  "type": "integer",
+                  "minimum": 100,
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "example": "",
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "code": {
+                      "type": "integer",
+                      "minimum": 100,
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "code": {
+                  "type": "integer",
+                  "minimum": 100,
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "encoding": {},
+            "example": {},
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            }
+          }
+        }
+      },
       "default": {}
-    }
+    },
+    "examples": {
+      "al": {
+        "summary": "",
+        "description": "",
+        "value": "",
+        "externalValue": ""
+      }
+    },
+    "links": {},
+    "callbacks": {},
+    "pathItems": {
+      "/h": {
+        "$ref": "",
+        "summary": "",
+        "description": "",
+        "servers": [
+          {
+            "url": "",
+            "description": "",
+            "variables": {
+              "enum": "",
+              "default": "",
+              "description": ""
+            }
+          }
+        ],
+        "parameters": [
+          {
+            "name": "",
+            "description": "",
+            "in": "",
+            "required": "",
+            "deprecated": "",
+            "allowEmptyValue": "",
+            "style": "",
+            "explode": "",
+            "allowReserved": "",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "code": {
+                  "type": "integer",
+                  "minimum": 100,
+                  "maximum": 600
+                }
+              },
+              "required": []
+            },
+            "example": "",
+            "examples": {
+              "al": {
+                "summary": "",
+                "description": "",
+                "value": "",
+                "externalValue": ""
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "code": {
+                      "type": "integer",
+                      "minimum": 100,
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "get": {},
+        "post": "",
+        "put": {
+          "operationId": "",
+          "deprecated": "",
+          "summary": "",
+          "description": "",
+          "tags": "",
+          "externalDocs": {
+            "description": "",
+            "url": ""
+          },
+          "parameters": [
+            {
+              "name": "",
+              "description": "",
+              "in": "",
+              "required": "",
+              "deprecated": "",
+              "allowEmptyValue": "",
+              "style": "",
+              "explode": "",
+              "allowReserved": "",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "code": {
+                    "type": "integer",
+                    "minimum": 100,
+                    "maximum": 600
+                  }
+                },
+                "required": []
+              },
+              "example": "",
+              "examples": {
+                "al": {
+                  "summary": "",
+                  "description": "",
+                  "value": "",
+                  "externalValue": ""
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "code": {
+                        "type": "integer",
+                        "minimum": 100,
+                        "maximum": 600
+                      }
+                    },
+                    "required": []
+                  },
+                  "encoding": {},
+                  "example": {},
+                  "examples": {
+                    "al": {
+                      "summary": "",
+                      "description": "",
+                      "value": "",
+                      "externalValue": ""
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "requestBody": {
+            "required": "",
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "code": {
+                      "type": "integer",
+                      "minimum": 100,
+                      "maximum": 600
+                    }
+                  },
+                  "required": []
+                },
+                "encoding": {},
+                "example": {},
+                "examples": {
+                  "al": {
+                    "summary": "",
+                    "description": "",
+                    "value": "",
+                    "externalValue": ""
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {},
+            "400": {
+              "description": "",
+              "headers": [
+                {
+                  "name": "",
+                  "description": "",
+                  "in": "",
+                  "required": "",
+                  "deprecated": "",
+                  "allowEmptyValue": "",
+                  "style": "",
+                  "explode": "",
+                  "allowReserved": "",
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "code": {
+                        "type": "integer",
+                        "minimum": 100,
+                        "maximum": 600
+                      }
+                    },
+                    "required": []
+                  },
+                  "example": "",
+                  "examples": {
+                    "al": {
+                      "summary": "",
+                      "description": "",
+                      "value": "",
+                      "externalValue": ""
+                    }
+                  },
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "object",
+                        "properties": {
+                          "message": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "code": {
+                            "type": "integer",
+                            "minimum": 100,
+                            "maximum": 600
+                          }
+                        },
+                        "required": []
+                      },
+                      "encoding": {},
+                      "example": {},
+                      "examples": {
+                        "al": {
+                          "summary": "",
+                          "description": "",
+                          "value": "",
+                          "externalValue": ""
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "content": {
+                "application/json": {
+                  "schema": {},
+                  "encoding": {},
+                  "example": {},
+                  "examples": {
+                    "al": {
+                      "summary": "",
+                      "description": "",
+                      "value": "",
+                      "externalValue": ""
+                    }
+                  }
+                }
+              },
+              "links": {}
+            },
+            "default": {}
+          },
+          "callbacks": "",
+          "security": "",
+          "servers": [
+            {
+              "url": "",
+              "description": "",
+              "variables": {
+                "enum": "",
+                "default": "",
+                "description": ""
+              }
+            }
+          ]
+        },
+        "patch": "",
+        "delete": "",
+        "head": "",
+        "options": {},
+        "trace": ""
+      }
+    },
+    "securitySchemes": [
+      {
+        "type": "",
+        "name": "",
+        "description": "",
+        "in": "",
+        "scheme": "",
+        "bearerFormat": "",
+        "flows": {
+          "implicit": {
+            "authorizationUrl": "",
+            "tokenUrl": "",
+            "refreshUrl": "",
+            "scopes": ""
+          },
+          "password": {
+            "authorizationUrl": "",
+            "tokenUrl": "",
+            "refreshUrl": "",
+            "scopes": ""
+          },
+          "clientCredentials": "",
+          "authorizationCode": ""
+        },
+        "openIdConnectUrl": ""
+      }
+    ]
   },
   "security": {},
   "tags": [
