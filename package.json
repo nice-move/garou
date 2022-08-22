@@ -50,34 +50,34 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.30.6",
+    "@typescript-eslint/parser": "^5.33.1",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.0.1",
-    "@nice-move/cli": "^0.9.6",
-    "@nice-move/eslint-config-base": "^0.8.0",
+    "@bring-it/npm": "^0.0.3",
+    "@nice-move/cli": "^0.9.8",
+    "@nice-move/eslint-config-base": "^0.8.8",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.3",
-    "@nice-move/prettier-config": "^0.7.0",
-    "@nice-move/stylelint-config": "^0.7.0",
+    "@nice-move/prettier-config": "^0.7.2",
+    "@nice-move/stylelint-config": "^0.7.1",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^4.3.1",
-    "best-shot": "^0.2.11",
+    "best-shot": "^0.2.13",
     "cheetor": "^0.12.6",
-    "eslint": "^8.20.0",
+    "eslint": "^8.22.0",
     "eslint-plugin-ava": "^13.2.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
-    "eslint-plugin-vue": "^9.2.0",
-    "espree": "^9.3.2",
+    "eslint-plugin-vue": "^9.3.0",
+    "espree": "^9.3.3",
     "fs-chain": "^8.2.1",
     "globby13": "npm:globby@13.1.2",
     "micromatch": "^4.0.5",
     "object-traversal": "^1.0.1",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.16",
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^1.2.0",
@@ -93,11 +93,11 @@
     "typescript": "^4.7.4",
     "vue-eslint-parser": "^9.0.3",
     "yaml": "^2.1.1",
-    "yarn-deduplicate": "^5.0.0"
+    "yarn-deduplicate": "^5.0.2"
   },
   "peerDependencies": {
-    "eslint": "^8.16.0",
-    "typescript": "^4.6.4"
+    "eslint": "^8.22.0",
+    "typescript": "^4.7.4"
   },
   "peerDependenciesMeta": {
     "typescript": {
