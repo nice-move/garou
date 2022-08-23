@@ -50,7 +50,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.33.1",
+    "@typescript-eslint/parser": "^5.34.0",
     "yargs": "^17.5.1"
   },
   "devDependencies": {

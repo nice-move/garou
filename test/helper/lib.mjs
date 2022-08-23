@@ -40,10 +40,6 @@ function Result(filename) {
   return Read(`../temp/${filename}`);
 }
 
-function Expected(filename) {
-  return Read(`../../fixture/expected/${filename}`);
-}
-
 function Delete(filename) {
   return fs
     .remove(fileURLToPath(join(import.meta.url, '../temp', filename)))
@@ -59,12 +55,9 @@ export async function Test(t, filename) {
   await Format(filename);
 
   // @ts-ignore
-  const expected = await Expected(filename);
-
-  // @ts-ignore
   const result = await Result(filename);
 
-  t.is(result.trim(), expected.trim());
+  t.snapshot(result.trim());
 
   if (t.passed) {
     await Delete(filename);

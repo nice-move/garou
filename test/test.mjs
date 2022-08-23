@@ -6,74 +6,38 @@ import { Test } from './helper/lib.mjs';
 
 fs.remove('dist/api.js');
 
-test.serial('yarn-lockfile', async (t) => {
-  await Test(t, 'yarn.lock');
-});
+test.serial('yarn-lockfile', Test, 'yarn.lock');
 
-test.serial('oas-json', async (t) => {
-  await Test(t, 'oas.json');
-});
+test.serial('oas-json', Test, 'oas.json');
 
-test.serial('oas-yaml', async (t) => {
-  await Test(t, 'oas.yaml');
-});
+test.serial('oas-yaml', Test, 'oas.yaml');
 
-test.serial('js', async (t) => {
-  await Test(t, 'index.js');
-});
+test.serial('js', Test, 'index.js');
 
-test.serial('jsx', async (t) => {
-  await Test(t, 'index.jsx');
-});
+test.serial('jsx', Test, 'index.jsx');
 
-test.serial('ts', async (t) => {
-  await Test(t, 'index.ts');
-});
+test.serial('ts', Test, 'index.ts');
 
-test.serial('tsx', async (t) => {
-  await Test(t, 'index.tsx');
-});
+test.serial('tsx', Test, 'index.tsx');
 
-test.serial('cjs', async (t) => {
-  await Test(t, 'index.cjs');
-});
+test.serial('cjs', Test, 'index.cjs');
 
-test.serial('cts', async (t) => {
-  await Test(t, 'index.cts');
-});
+test.serial('cts', Test, 'index.cts');
 
-test.serial('mjs', async (t) => {
-  await Test(t, 'index.mjs');
-});
+test.serial('mjs', Test, 'index.mjs');
 
-test.serial('mts', async (t) => {
-  await Test(t, 'index.mts');
-});
+test.serial('mts', Test, 'index.mts');
 
-test.serial('css', async (t) => {
-  await Test(t, 'index.css');
-});
+test.serial('css', Test, 'index.css');
 
-test.serial('less', async (t) => {
-  await Test(t, 'index.less');
-});
+test.serial('less', Test, 'index.less');
 
-test.serial('scss', async (t) => {
-  await Test(t, 'index.scss');
-});
+test.serial('scss', Test, 'index.scss');
 
-test.serial('html', async (t) => {
-  await Test(t, 'index.html');
-});
+test.serial('html', Test, 'index.html');
 
-test.serial('htm', async (t) => {
-  await Test(t, 'index.htm');
-});
+test.serial('htm', Test, 'index.htm');
 
-test.serial('vue', async (t) => {
-  await Test(t, 'index.vue');
-});
+test.serial('vue', Test, 'index.vue');
 
-test.serial('md', async (t) => {
-  await Test(t, 'index.md');
-});
+test.serial('md', Test, 'index.md');
