@@ -72,7 +72,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
     "eslint-plugin-vue": "^9.4.0",
-    "espree": "^9.3.3",
+    "espree": "^9.4.0",
     "fs-chain": "^8.2.1",
     "globby13": "npm:globby@13.1.2",
     "micromatch": "^4.0.5",
