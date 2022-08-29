@@ -21,7 +21,13 @@ function Copy(filename) {
 }
 
 function Run(filename) {
-  return Exec('node', [bin, `test/helper/temp/${filename}`]);
+  return Exec('node', [bin, `test/helper/temp/${filename}`]).then(
+    ({ stdout, stderr }) => {
+      console.log(stdout);
+
+      return { stdout, stderr };
+    },
+  );
 }
 
 const npx = process.platform.startsWith('win') ? 'npx.cmd' : 'npx';
