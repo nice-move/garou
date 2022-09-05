@@ -1,3 +1,22 @@
+import { Text } from 'fs-chain';
+
+import { ruleOther } from '../lib/handle-style/other.mjs';
+
+new Text(import.meta.url)
+  .onDone(() =>
+    [
+      `'use strict';`,
+      '',
+      'module.exports = {',
+      ...Object.keys(ruleOther).map(
+        (item) => `'${item}': require('stylelint/lib/rules/${item}/index.js'),`,
+      ),
+      '};',
+    ].join('\n'),
+  )
+  .output('../fake.cjs')
+  .logger('copy rules list');
+
 export const config = {
   target: 'node14',
   entry: {
@@ -26,4 +45,10 @@ export const config = {
       },
     });
   },
+  replace: [
+    {
+      from: 'stylelint/lib/rules/index.js',
+      to: new URL('fake.cjs', import.meta.url),
+    },
+  ],
 };
