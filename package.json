@@ -81,7 +81,7 @@
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^1.2.0",
-    "postcss-scss": "^4.0.4",
+    "postcss-scss": "^4.0.5",
     "prettier": "^2.7.1",
     "rehype": "^12.0.1",
     "rehype-sort-attributes": "^4.0.0",
