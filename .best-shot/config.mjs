@@ -14,7 +14,7 @@ new Text(import.meta.url)
       '};',
     ].join('\n'),
   )
-  .output('../fake.cjs')
+  .output('../rules.cjs')
   .logger('copy rules list');
 
 export const config = {
@@ -48,7 +48,11 @@ export const config = {
   replace: [
     {
       from: 'stylelint/lib/rules/index.js',
-      to: new URL('fake.cjs', import.meta.url),
+      to: new URL('rules.cjs', import.meta.url),
+    },
+    {
+      from: 'stylelint/lib/formatters/index.js',
+      to: new URL('formatters.cjs', import.meta.url),
     },
   ],
 };
