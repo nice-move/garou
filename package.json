@@ -71,7 +71,7 @@
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-sort-class-members": "^1.15.2",
-    "eslint-plugin-vue": "^9.6.0",
+    "eslint-plugin-vue": "^9.7.0",
     "espree": "^9.4.0",
     "fs-chain": "^8.2.1",
     "globby13": "npm:globby@13.1.2",
