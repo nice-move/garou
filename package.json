@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.42.0",
-    "yargs": "^17.6.0"
+    "yargs": "^17.6.1"
   },
   "devDependencies": {
     "@bring-it/npm": "^0.1.0",
