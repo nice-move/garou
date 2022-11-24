@@ -1,7 +1,7 @@
-import { execFile } from 'child_process';
-import { join } from 'path';
-import { fileURLToPath } from 'url';
-import { promisify } from 'util';
+import { execFile } from 'node:child_process';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { promisify } from 'node:util';
 
 // @ts-ignore
 import { fs, Text } from 'fs-chain';

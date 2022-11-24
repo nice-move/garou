@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import test from 'ava';
 
 import { sortBy } from '../lib/handle-config/utils.mjs';
