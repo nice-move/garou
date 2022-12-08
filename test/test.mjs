@@ -1,9 +1,6 @@
 import test from 'ava';
-import { fs } from 'fs-chain';
 
 import { Test } from './helper/lib.mjs';
-
-fs.remove('dist/api.js');
 
 test.serial('yarn-lockfile', Test, 'yarn.lock');
 

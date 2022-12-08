@@ -18,32 +18,24 @@ new Text(import.meta.url)
   .logger('copy rules list');
 
 export const config = {
-  target: 'node14',
+  target: 'node16',
   entry: {
     cli: './lib/cli.mjs',
-    parser: 'vue-eslint-parser',
   },
   output: {
     path: 'dist',
+    module: true,
   },
   externals: {
-    'postcss-styl': 'node-commonjs postcss-styl',
+    '@yarnpkg/lockfile': 'node-commonjs @yarnpkg/lockfile',
+    'eslint-module-utils/resolve':
+      'node-commonjs eslint-module-utils/resolve.js',
+    'flat-cache': 'node-commonjs flat-cache',
     'postcss-sass': 'node-commonjs postcss-sass',
-    eslint: 'node-commonjs eslint',
+    'postcss-styl': 'node-commonjs postcss-styl',
+    'write-file-atomic': 'node-commonjs write-file-atomic',
+    eslint: 'module eslint',
     sugarss: 'node-commonjs sugarss',
-    yargs: 'node-commonjs yargs',
-  },
-  chain(chain) {
-    chain.optimization.splitChunks({
-      cacheGroups: {
-        default: {
-          chunks: 'initial',
-          minChunks: 2,
-          name: 'common',
-          reuseExistingChunk: true,
-        },
-      },
-    });
   },
   replace: [
     {
