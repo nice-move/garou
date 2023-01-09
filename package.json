@@ -50,7 +50,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.1",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.7.4",
     "flat-cache": "^3.0.4",
