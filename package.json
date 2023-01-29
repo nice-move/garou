@@ -65,7 +65,7 @@
     "@nice-move/prettier-config": "^0.8.0",
     "@nice-move/stylelint-config": "^0.8.1",
     "@yarnpkg/lockfile": "^1.1.0",
-    "ava": "^5.1.0",
+    "ava": "^5.1.1",
     "best-shot": "^0.3.1",
     "cheetor": "^0.13.0",
     "eslint": "^8.32.0",
