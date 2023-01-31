@@ -1,7 +1,7 @@
 // @ts-nocheck
 /*This is a comment with no whitespace at the beginning */
 'use strict';
-import { z, foo as foo } from 'bar';
+import { z, foo as foo, type aaa } from 'bar';
 import 'll';
 import n from 'nn';
 import ddd from './ss';
