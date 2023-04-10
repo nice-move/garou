@@ -30,18 +30,6 @@ function Run(filename) {
   );
 }
 
-const npx = process.platform.startsWith('win') ? 'npx.cmd' : 'npx';
-
-function Format(filename) {
-  return Exec(npx, [
-    '--no-install',
-    'prettier',
-    `test/helper/temp/${filename}`,
-    '-w',
-    '-u',
-  ]);
-}
-
 function Result(filename) {
   return Read(`../temp/${filename}`);
 }
@@ -57,8 +45,6 @@ export async function Test(t, filename) {
   await Copy(filename);
 
   await Run(filename);
-
-  await Format(filename);
 
   // @ts-ignore
   const result = await Result(filename);
