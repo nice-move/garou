@@ -4,6 +4,7 @@ import { z, foo as foo } from 'bar';
 import 'll';
 import n from 'nn';
 import ddd from './ss';
+import { aee } from 'react';
 const k = [];
 class A {
   a() {}
