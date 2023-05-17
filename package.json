@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -52,11 +52,11 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.6",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.8.0",
     "flat-cache": "^3.0.4",
-    "vue-eslint-parser": "^9.2.1",
+    "vue-eslint-parser": "^9.3.0",
     "write-file-atomic": "^5.0.1"
   },
   "devDependencies": {
@@ -69,7 +69,7 @@
     "@nice-move/tsconfig": "^0.0.2",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^5.2.0",
-    "best-shot": "^0.3.3",
+    "best-shot": "^0.3.5",
     "cheetor": "^0.13.0",
     "eslint": "^8.40.0",
     "eslint-plugin-ava": "^14.0.0",
@@ -78,7 +78,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort-class-members": "^1.18.0",
-    "eslint-plugin-vue": "^9.12.0",
+    "eslint-plugin-vue": "^9.13.0",
     "espree": "^9.5.2",
     "fs-chain": "^8.2.1",
     "globby13": "npm:globby@13.1.4",
@@ -94,7 +94,7 @@
     "rehype-sort-attributes": "^4.0.0",
     "settingz": "^0.2.0",
     "slash": "^5.1.0",
-    "stylelint": "^15.6.1",
+    "stylelint": "^15.6.2",
     "stylelint-order": "^6.0.3",
     "stylelint-scss": "~5.0.0",
     "typescript": "^5.0.4",
