@@ -16,6 +16,7 @@ Do thing what heroes didn't do.
 
 A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, what `prettier` didn't care about. Offering better code comparing for `git diff`.
 
+- Enforce consistent brace style
 - Handle `tsx/jsx/vue` self closing
 - Handle text case from `css/scss/less`
 - Remove vendor prefix from `css/scss/less`

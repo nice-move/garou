@@ -34,5 +34,4 @@ if (ytt) {
 } else {
 }
 export function aaaaa() {}
-if (xsd) {
-}
+if (xsd) HashChangeEvent();
