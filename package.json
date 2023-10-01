@@ -46,9 +46,9 @@
     "lint:staged": "nice-move lint staged",
     "lint:type": "tsc --noEmit",
     "prepare": "nice-move git hooks",
-    "prepublishOnly": "npm run lint:staged && npm test",
+    "prepublishOnly": "pnpm run lint:staged && pnpm test",
     "snapshot": "ava --fail-fast -u",
-    "pretest": "npm run build",
+    "pretest": "pnpm run build",
     "test": "ava --fail-fast"
   },
   "dependencies": {
@@ -60,11 +60,11 @@
     "write-file-atomic": "^5.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.2.10",
+    "@bring-it/npm": "^0.3.4",
     "@nice-move/cli": "^0.10.11",
     "@nice-move/eslint-config-base": "^0.9.20",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.3",
-    "@nice-move/prettier-config": "^0.9.4",
+    "@nice-move/prettier-config": "^0.9.6",
     "@nice-move/stylelint-config": "^0.9.6",
     "@nice-move/tsconfig": "^0.1.0",
     "@yarnpkg/lockfile": "^1.1.0",
@@ -84,11 +84,11 @@
     "globby": "^13.2.2",
     "micromatch": "^4.0.5",
     "object-traversal": "^1.0.1",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^1.2.0",
-    "postcss-scss": "^4.0.8",
+    "postcss-scss": "^4.0.9",
     "prettier": "^3.0.3",
     "rehype": "^13.0.1",
     "rehype-sort-attributes": "^5.0.0",
@@ -117,6 +117,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "packageManager": "pnpm@8.8.0",
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },

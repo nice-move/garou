@@ -1,5 +1,5 @@
 #!/bin/sh
 
-npm run prepublishOnly
-npm run garou .
+pnpm run prepublishOnly
+pnpm run garou .
 git add .
