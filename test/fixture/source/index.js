@@ -7,7 +7,9 @@ import ddd from './ss';
 import { aee } from 'react';
 const k = [];
 class A {
-  a() {}
+  g() {}
+  static t() {}
+  async c() {}
   constructor() {}
 }
 import { kde } from 'nn';

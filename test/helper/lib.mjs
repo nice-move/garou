@@ -1,4 +1,4 @@
-import { execFile } from 'node:child_process';
+import { exec } from 'node:child_process';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
@@ -6,7 +6,7 @@ import { promisify } from 'node:util';
 // @ts-ignore
 import { fs, Text } from 'fs-chain';
 
-const Exec = promisify(execFile);
+const Exec = promisify(exec);
 
 const bin = 'dist/cli.mjs';
 
@@ -17,11 +17,13 @@ function Read(path) {
 }
 
 function Copy(filename) {
-  return Read(`../../fixture/source/${filename}`).output(`../temp/${filename}`);
+  return Read(`../../fixture/source/${filename}`).output(
+    `../../temp/${filename}`,
+  );
 }
 
 function Run(filename) {
-  return Exec('node', [bin, `test/helper/temp/${filename}`]).then(
+  return Exec(`node ${bin} test/temp/${filename}`).then(
     ({ stdout, stderr }) => {
       console.log(stdout);
 
@@ -30,13 +32,23 @@ function Run(filename) {
   );
 }
 
+function Format(filename) {
+  return Exec(`pnpm exec prettier -w -u "test/temp/${filename}"`).then(
+    ({ stdout, stderr }) => {
+      console.warn(stderr);
+
+      return { stdout, stderr };
+    },
+  );
+}
+
 function Result(filename) {
-  return Read(`../temp/${filename}`);
+  return Read(`../../temp/${filename}`);
 }
 
 function Delete(filename) {
   return fs
-    .remove(fileURLToPath(join(import.meta.url, '../temp', filename)))
+    .remove(fileURLToPath(join(import.meta.url, '../../temp', filename)))
     .catch(console.warn);
 }
 
@@ -45,6 +57,8 @@ export async function Test(t, filename) {
   await Copy(filename);
 
   await Run(filename);
+
+  await Format(filename);
 
   // @ts-ignore
   const result = await Result(filename);

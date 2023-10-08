@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.6.14",
+  "version": "0.6.15",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -47,22 +47,22 @@
     "lint:type": "tsc --noEmit",
     "prepare": "nice-move git hooks",
     "prepublishOnly": "pnpm run lint:staged && pnpm test",
-    "snapshot": "ava --fail-fast -u",
+    "snapshot": "ava --fail-fast -u -w",
     "pretest": "pnpm run build",
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.4",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.8.0",
-    "flat-cache": "^3.1.0",
+    "flat-cache": "^3.1.1",
     "vue-eslint-parser": "^9.3.1",
     "write-file-atomic": "^5.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.3.4",
+    "@bring-it/npm": "^0.3.5",
     "@nice-move/cli": "^0.10.11",
-    "@nice-move/eslint-config-base": "^0.9.20",
+    "@nice-move/eslint-config-base": "^0.9.21",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.3",
     "@nice-move/prettier-config": "^0.9.6",
     "@nice-move/stylelint-config": "^0.9.6",
@@ -71,13 +71,13 @@
     "ava": "^5.3.1",
     "best-shot": "^0.4.2",
     "cheetor": "^0.13.0",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "eslint-plugin-ava": "^14.0.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-sort-class-members": "^1.18.0",
+    "eslint-plugin-sort-class-members": "^1.19.0",
     "eslint-plugin-vue": "^9.17.0",
     "espree": "^9.6.1",
     "fs-chain": "^8.2.2",
@@ -118,6 +118,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "packageManager": "pnpm@8.8.0",
+  "ava": {
+    "ignoredByWatcher": [
+      "**/temp/**"
+    ]
+  },
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },
