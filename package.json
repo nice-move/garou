@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.6.17",
+  "version": "0.6.19",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -52,35 +52,35 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^6.7.4",
+    "@typescript-eslint/parser": "^6.11.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.8.0",
-    "flat-cache": "^3.1.1",
+    "flat-cache": "^3.2.0",
     "vue-eslint-parser": "^9.3.2",
     "write-file-atomic": "^5.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.3.5",
-    "@nice-move/cli": "^0.10.12",
-    "@nice-move/eslint-config-base": "^0.9.21",
+    "@bring-it/npm": "^0.3.9",
+    "@nice-move/cli": "^0.11.1",
+    "@nice-move/eslint-config-base": "^0.9.24",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.3",
-    "@nice-move/prettier-config": "^0.9.6",
-    "@nice-move/stylelint-config": "^0.9.6",
-    "@nice-move/tsconfig": "^0.1.0",
+    "@nice-move/prettier-config": "^0.9.8",
+    "@nice-move/stylelint-config": "^0.9.8",
+    "@nice-move/tsconfig": "^0.1.1",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^5.3.1",
-    "best-shot": "^0.4.2",
+    "best-shot": "^0.4.6",
     "cheetor": "^0.13.0",
-    "eslint": "^8.51.0",
+    "eslint": "^8.53.0",
     "eslint-plugin-ava": "^14.0.0",
-    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort-class-members": "^1.19.0",
-    "eslint-plugin-vue": "^9.17.0",
+    "eslint-plugin-vue": "^9.18.1",
     "espree": "^9.6.1",
-    "fs-chain": "^8.2.2",
+    "fs-chain": "^8.2.3",
     "globby": "^13.2.2",
     "micromatch": "^4.0.5",
     "object-traversal": "^1.0.1",
@@ -89,22 +89,22 @@
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^1.2.0",
     "postcss-scss": "^4.0.9",
-    "prettier": "^3.0.3",
+    "prettier": "^3.1.0",
     "rehype": "^13.0.1",
     "rehype-sort-attributes": "^5.0.0",
     "settingz": "^0.2.0",
     "slash": "^5.1.0",
     "sort-keys": "^5.0.0",
-    "stylelint": "^15.10.3",
+    "stylelint": "^15.11.0",
     "stylelint-order": "^6.0.3",
-    "stylelint-scss": "~5.2.1",
+    "stylelint-scss": "~5.3.1",
     "typescript": "^5.2.2",
-    "yaml": "^2.3.2",
+    "yaml": "^2.3.4",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
-    "eslint": "^8.51.0",
-    "typescript": "^4.9.5 || ^5.2.2"
+    "eslint": "^8.53.0",
+    "typescript": "^5.2.2"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -112,13 +112,13 @@
     }
   },
   "engines": {
-    "node": ">=19.0.0 || ^16.15.0 || ^18.12.0"
+    "node": ">=20.0.0 || ^16.15.0 || ^18.12.0"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.8.0",
+  "packageManager": "pnpm@8.10.4",
   "ava": {
     "ignoredByWatcher": [
       "**/temp/**"
