@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^6.0.1
     version: 6.0.1
   best-shot:
-    specifier: ^0.4.6
-    version: 0.4.6
+    specifier: ^0.5.0
+    version: 0.5.0
   cheetor:
     specifier: ^0.13.0
     version: 0.13.0
@@ -1350,9 +1350,9 @@ packages:
     resolution: {integrity: sha512-1ugUSr8BHXRnK23KfuYS+gVMC3LB8QGH9W1iGtDPsNWoQbgtXSExkBu2aDR4epiGWZOjZsj6lDl/N/AqqTC3UA==}
     dev: true
 
-  /best-shot@0.4.6:
-    resolution: {integrity: sha512-3oSLIrXdr+OPcsKLZK8VZHT9n9diEQD1ubcFXxL985FUhif5pyuowUzGNRA3UyYrmkczrY96YnC716+iQ6/IAQ==}
-    engines: {node: ^16.15.0 || ^18.12.0 || ^20.0.0}
+  /best-shot@0.5.0:
+    resolution: {integrity: sha512-DW+RvxG+VPqrD6YpMyiK6Lw86HKi3FpNHVmne//aK5vmvra7SyskdLesXo73XXOM83IG1cZvAiITp1XNXjSeYQ==}
+    engines: {node: ^18.12.0 || ^20.0.0}
     hasBin: true
     dependencies:
       '@best-shot/no-cache-loader': 0.0.0(webpack@5.89.0)

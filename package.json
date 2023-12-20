@@ -69,7 +69,7 @@
     "@nice-move/tsconfig": "^0.2.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.0.1",
-    "best-shot": "^0.4.6",
+    "best-shot": "^0.5.0",
     "cheetor": "^0.13.0",
     "eslint": "^8.56.0",
     "eslint-plugin-ava": "^14.0.0",
