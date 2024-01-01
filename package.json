@@ -65,7 +65,7 @@
     "@nice-move/eslint-config-base": "^0.11.1",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.4",
     "@nice-move/prettier-config": "^0.10.0",
-    "@nice-move/stylelint-config": "^0.9.9",
+    "@nice-move/stylelint-config": "^0.10.0",
     "@nice-move/tsconfig": "^0.2.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.0.1",

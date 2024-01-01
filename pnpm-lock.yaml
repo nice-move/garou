@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^0.10.0
     version: 0.10.0(prettier@3.1.1)
   '@nice-move/stylelint-config':
-    specifier: ^0.9.9
-    version: 0.9.9(stylelint@15.11.0)
+    specifier: ^0.10.0
+    version: 0.10.2(stylelint@15.11.0)
   '@nice-move/tsconfig':
     specifier: ^0.2.0
     version: 0.2.0(typescript@5.3.3)
@@ -627,11 +627,11 @@ packages:
       prettier: 3.1.1
     dev: true
 
-  /@nice-move/stylelint-config@0.9.9(stylelint@15.11.0):
-    resolution: {integrity: sha512-ZmBFYp8+9+PoFVxp4K08fVVLukoNQ9/gVsFc+AW8Ca4PuTwCKFyJnRXo4c6RxvpfWITZLQylsX07DlAtrnheIQ==}
-    engines: {node: ^16.17.0 || ^18.12.0 || ^20.0.0}
+  /@nice-move/stylelint-config@0.10.2(stylelint@15.11.0):
+    resolution: {integrity: sha512-JEtCuwldYlvChbI2mbKvaZDoBeZ970ULjbuKpxIEsngkYDFSlVQsjyZQZpchruflPo5YMQfLsPFI0Leypb/fkQ==}
+    engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
-      stylelint: ^15.11.0
+      stylelint: ^16.0.2
     dependencies:
       postcss: 8.4.32
       postcss-html: 1.5.0
@@ -640,9 +640,8 @@ packages:
       postcss-scss: 4.0.9(postcss@8.4.32)
       settingz: 0.2.0
       stylelint: 15.11.0(typescript@5.3.3)
-      stylelint-config-standard: 34.0.0(stylelint@15.11.0)
-      stylelint-declaration-block-no-ignored-properties: 2.7.0(stylelint@15.11.0)
-      stylelint-scss: 5.3.2(stylelint@15.11.0)
+      stylelint-config-standard: 35.0.0(stylelint@15.11.0)
+      stylelint-scss: 6.0.0(stylelint@15.11.0)
       stylelint-suitcss: 5.0.0
     transitivePeerDependencies:
       - supports-color
@@ -4722,32 +4721,23 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /stylelint-config-recommended@13.0.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}
-    engines: {node: ^14.13.1 || >=16.0.0}
+  /stylelint-config-recommended@14.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^15.10.0
+      stylelint: ^16.0.0
     dependencies:
       stylelint: 15.11.0(typescript@5.3.3)
     dev: true
 
-  /stylelint-config-standard@34.0.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-u0VSZnVyW9VSryBG2LSO+OQTjN7zF9XJaAJRX/4EwkmU0R2jYwmBSN10acqZisDitS0CLiEiGjX7+Hrq8TAhfQ==}
-    engines: {node: ^14.13.1 || >=16.0.0}
+  /stylelint-config-standard@35.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-JyQrNZk2BZwVKFauGGxW2U6RuhIfQ4XoHHo+rBzMHcAkLnwI/knpszwXjzxiMgSfcxbZBckM7Vq4LHoANTR85g==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^15.10.0
+      stylelint: ^16.0.0
     dependencies:
       stylelint: 15.11.0(typescript@5.3.3)
-      stylelint-config-recommended: 13.0.0(stylelint@15.11.0)
-    dev: true
-
-  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==}
-    engines: {node: '>=6'}
-    peerDependencies:
-      stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
-    dependencies:
-      stylelint: 15.11.0(typescript@5.3.3)
+      stylelint-config-recommended: 14.0.0(stylelint@15.11.0)
     dev: true
 
   /stylelint-order@6.0.4(stylelint@15.11.0):
@@ -4764,6 +4754,20 @@ packages:
     resolution: {integrity: sha512-4LzLaayFhFyneJwLo0IUa8knuIvj+zF0vBFueQs4e3tEaAMIQX8q5th8ziKkgOavr6y/y9yoBe+RXN/edwLzsQ==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
+    dependencies:
+      known-css-properties: 0.29.0
+      postcss-media-query-parser: 0.2.3
+      postcss-resolve-nested-selector: 0.1.1
+      postcss-selector-parser: 6.0.13
+      postcss-value-parser: 4.2.0
+      stylelint: 15.11.0(typescript@5.3.3)
+    dev: true
+
+  /stylelint-scss@6.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-N1xV/Ef5PNRQQt9E45unzGvBUN1KZxCI8B4FgN/pMfmyRYbZGVN4y9qWlvOMdScU17c8VVCnjIHTVn38Bb6qSA==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.0.2
     dependencies:
       known-css-properties: 0.29.0
       postcss-media-query-parser: 0.2.3
