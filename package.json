@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.6.22",
+  "version": "0.6.23",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -52,7 +52,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^6.15.0",
+    "@typescript-eslint/parser": "^6.17.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.8.0",
     "flat-cache": "^3.2.0",
@@ -65,11 +65,11 @@
     "@nice-move/eslint-config-base": "^0.11.1",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.4",
     "@nice-move/prettier-config": "^0.10.0",
-    "@nice-move/stylelint-config": "^0.10.0",
+    "@nice-move/stylelint-config": "^0.9.9",
     "@nice-move/tsconfig": "^0.2.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.0.1",
-    "best-shot": "^0.5.0",
+    "best-shot": "^0.5.1",
     "cheetor": "^0.13.0",
     "eslint": "^8.56.0",
     "eslint-plugin-ava": "^14.0.0",
@@ -84,7 +84,7 @@
     "globby": "^14.0.0",
     "micromatch": "^4.0.5",
     "object-traversal": "^1.0.1",
-    "postcss": "^8.4.32",
+    "postcss": "^8.4.33",
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^1.2.0",
@@ -118,7 +118,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.11.0",
+  "packageManager": "pnpm@8.14.0",
   "ava": {
     "watchMode": {
       "ignoreChanges": [

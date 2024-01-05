@@ -1,4 +1,7 @@
 /* stylelint-disable block-no-empty, unit-no-unknown */
+:root {
+  --kk: 0px;
+}
 body {
   height: 2;
   width: 0px;
