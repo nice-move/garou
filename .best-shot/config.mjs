@@ -1,24 +1,14 @@
-import { Text } from 'fs-chain';
+import { Json } from 'fs-chain';
 
-import { ruleOther } from '../lib/handle-style/other.mjs';
-
-new Text(import.meta.url)
-  .onDone(() =>
-    [
-      `'use strict';`,
-      '',
-      'module.exports = {',
-      ...Object.keys(ruleOther).map(
-        (item) => `'${item}': require('stylelint/lib/rules/${item}/index.js'),`,
-      ),
-      '};',
-    ].join('\n'),
-  )
-  .output('../rules.cjs')
-  .logger('copy rules list');
+new Json(process.cwd())
+  .config({ pretty: true })
+  .source('node_modules/@stylistic/stylelint-plugin/package.json')
+  .onDone(({ exports, ...rest }) => ({ ...rest }))
+  .output()
+  .logger('hack');
 
 export const config = {
-  target: 'node16',
+  target: 'node18',
   entry: {
     cli: './lib/cli.mjs',
   },
@@ -30,21 +20,12 @@ export const config = {
     '@yarnpkg/lockfile': 'node-commonjs @yarnpkg/lockfile',
     'eslint-module-utils/resolve':
       'node-commonjs eslint-module-utils/resolve.js',
-    'flat-cache': 'node-commonjs flat-cache',
+    // 'flat-cache': 'node-commonjs flat-cache',
     'postcss-sass': 'node-commonjs postcss-sass',
     'postcss-styl': 'node-commonjs postcss-styl',
-    'write-file-atomic': 'node-commonjs write-file-atomic',
+    // 'write-file-atomic': 'node-commonjs write-file-atomic',
     eslint: 'module eslint',
+    stylelint: 'node-commonjs stylelint',
     sugarss: 'node-commonjs sugarss',
   },
-  replace: [
-    {
-      from: 'stylelint/lib/rules/index.js',
-      to: new URL('rules.cjs', import.meta.url),
-    },
-    {
-      from: 'stylelint/lib/formatters/index.js',
-      to: new URL('formatters.cjs', import.meta.url),
-    },
-  ],
 };

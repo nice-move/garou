@@ -18,12 +18,12 @@ function Read(path) {
 
 function Copy(filename) {
   return Read(`../../fixture/source/${filename}`).output(
-    `../../temp/${filename}`,
+    `../../fixture/temp/${filename}`,
   );
 }
 
 function Run(filename) {
-  return Exec(`node ${bin} test/temp/${filename}`).then(
+  return Exec(`node ${bin} test/fixture/temp/${filename}`).then(
     ({ stdout, stderr }) => {
       console.log(stdout);
 
@@ -33,7 +33,7 @@ function Run(filename) {
 }
 
 function Format(filename) {
-  return Exec(`pnpm exec prettier -w -u "test/temp/${filename}"`).then(
+  return Exec(`pnpm exec prettier -w -u "test/fixture/temp/${filename}"`).then(
     ({ stdout, stderr }) => {
       console.warn(stderr);
 
@@ -43,12 +43,14 @@ function Format(filename) {
 }
 
 function Result(filename) {
-  return Read(`../../temp/${filename}`);
+  return Read(`../../fixture/temp/${filename}`);
 }
 
 function Delete(filename) {
   return fs
-    .remove(fileURLToPath(join(import.meta.url, '../../temp', filename)))
+    .remove(
+      fileURLToPath(join(import.meta.url, '../../fixture/temp', filename)),
+    )
     .catch(console.warn);
 }
 
