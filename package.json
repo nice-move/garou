@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -53,7 +53,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^7.1.0",
+    "@typescript-eslint/parser": "^7.3.1",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.8.1",
     "flat-cache": "^3.2.0",
@@ -71,43 +71,43 @@
     "@stylistic/stylelint-plugin": "^2.1.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.1.2",
-    "best-shot": "^0.5.1",
+    "best-shot": "^0.5.2",
     "cheetor": "^0.13.0",
     "eslint": "^8.57.0",
     "eslint-plugin-ava": "^14.0.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-markdown": "^3.0.1",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-markdown": "^4.0.1",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-sort-class-members": "^1.20.0",
-    "eslint-plugin-vue": "^9.22.0",
+    "eslint-plugin-vue": "^9.23.0",
     "espree": "^9.6.1",
     "fs-chain": "^8.2.3",
-    "globby": "^14.0.0",
+    "globby": "^14.0.1",
     "micromatch": "^4.0.5",
     "object-traversal": "^1.0.1",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.38",
     "postcss-html": "^1.6.0",
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^1.2.0",
     "postcss-scss": "^4.0.9",
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "rehype": "^13.0.1",
     "rehype-sort-attributes": "^5.0.0",
     "settingz": "^0.2.0",
     "slash": "^5.1.0",
     "sort-keys": "^5.0.0",
-    "stylelint": "^16.2.0",
+    "stylelint": "^16.2.1",
     "stylelint-order": "^6.0.4",
-    "stylelint-scss": "~6.1.0",
-    "typescript": "^5.3.3",
-    "yaml": "^2.4.0",
+    "stylelint-scss": "~6.2.1",
+    "typescript": "^5.4.3",
+    "yaml": "^2.4.1",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
-    "eslint": "^8.56.0",
-    "stylelint": "^16.2.0",
-    "typescript": "^5.3.3"
+    "eslint": "^8.57.0",
+    "stylelint": "^16.2.1",
+    "typescript": "^5.4.3"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -121,7 +121,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.15.2",
+  "packageManager": "pnpm@8.15.5",
   "ava": {
     "watchMode": {
       "ignoreChanges": [
