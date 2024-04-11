@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -53,7 +53,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^7.3.1",
+    "@typescript-eslint/parser": "^7.6.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.8.1",
     "flat-cache": "^3.2.0",
@@ -62,13 +62,13 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.2",
-    "@nice-move/cli": "^0.11.3",
-    "@nice-move/eslint-config-base": "^0.11.1",
+    "@nice-move/cli": "^0.11.9",
+    "@nice-move/eslint-config-base": "^0.11.3",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.4",
-    "@nice-move/prettier-config": "^0.10.0",
-    "@nice-move/stylelint-config": "^0.10.2",
-    "@nice-move/tsconfig": "^0.2.0",
-    "@stylistic/stylelint-plugin": "^2.1.0",
+    "@nice-move/prettier-config": "^0.11.1",
+    "@nice-move/stylelint-config": "^0.10.6",
+    "@nice-move/tsconfig": "^0.2.1",
+    "@stylistic/stylelint-plugin": "^2.1.1",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.1.2",
     "best-shot": "^0.5.2",
@@ -80,7 +80,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-sort-class-members": "^1.20.0",
-    "eslint-plugin-vue": "^9.23.0",
+    "eslint-plugin-vue": "^9.24.1",
     "espree": "^9.6.1",
     "fs-chain": "^8.2.3",
     "globby": "^14.0.1",
@@ -97,17 +97,17 @@
     "settingz": "^0.2.0",
     "slash": "^5.1.0",
     "sort-keys": "^5.0.0",
-    "stylelint": "^16.2.1",
+    "stylelint": "^16.3.1",
     "stylelint-order": "^6.0.4",
     "stylelint-scss": "~6.2.1",
-    "typescript": "^5.4.3",
+    "typescript": "^5.4.5",
     "yaml": "^2.4.1",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
     "eslint": "^8.57.0",
-    "stylelint": "^16.2.1",
-    "typescript": "^5.4.3"
+    "stylelint": "^16.3.1",
+    "typescript": "^5.4.5"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -121,7 +121,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@8.15.6",
   "ava": {
     "watchMode": {
       "ignoreChanges": [
