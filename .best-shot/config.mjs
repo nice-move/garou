@@ -25,7 +25,11 @@ export const config = {
     'postcss-styl': 'node-commonjs postcss-styl',
     // 'write-file-atomic': 'node-commonjs write-file-atomic',
     eslint: 'module eslint',
-    stylelint: 'node-commonjs stylelint',
+    stylelint: 'module stylelint',
     sugarss: 'node-commonjs sugarss',
+    'stylelint-scss/src/rules/dollar-variable-empty-line-before/index.js':
+      'node-commonjs stylelint-scss/src/rules/dollar-variable-empty-line-before/index.js',
+    'stylelint-scss/src/rules/double-slash-comment-empty-line-before/index.js':
+      'node-commonjs stylelint-scss/src/rules/double-slash-comment-empty-line-before/index.js',
   },
 };

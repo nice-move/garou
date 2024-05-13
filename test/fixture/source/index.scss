@@ -1,13 +1,13 @@
 /* stylelint-disable block-no-empty, unit-no-unknown */
 body {
-  height: 2;
   width: 0px;
+  height: 2;
 
   DIV::-moz-placeholder {
-    opacity: 50%;
-    -moz-appearance: -webkit-flex;
-    color: #fff;
     display: BLOCK;
+    -moz-appearance: -webkit-flex;
+    opacity: 50%;
+    color: #fff;
   }
 }
 /*comment*/
@@ -21,9 +21,4 @@ div:before {
   0% {
     -webkit-transform: Calc(1px+2px);
   }
-}
-@if ($r) {
-  $d: 3;
-  // s
-  @include main;
 }

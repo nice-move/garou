@@ -21,7 +21,6 @@ A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, wh
 - Handle text case from `css/scss/less`
 - Remove vendor prefix from `css/scss/less`
 - Handle whitespace, empty line between code
-- Sort `css/scss/less` properties
 - Sort `html/htm` attributes
 - Sort `jsx/tsx` props
 - Sort `tsx/ts/mts/cts/jsx/js/mjs/cjs` class members
