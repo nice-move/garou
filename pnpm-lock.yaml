@@ -79,7 +79,7 @@ importers:
         specifier: ^8.2.3
         version: 8.2.3
       globby:
-        specifier: ^14.0.1
+        specifier: ^14.0.2
         version: 14.0.2
       micromatch:
         specifier: ^4.0.7
