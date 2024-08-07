@@ -28,8 +28,8 @@ importers:
         version: 5.0.1
     devDependencies:
       '@bring-it/npm':
-        specifier: ^0.5.4
-        version: 0.5.5(@bring-it/cli@0.9.3)
+        specifier: ^0.5.7
+        version: 0.5.7(@bring-it/cli@0.9.3)
       '@nice-move/all-in-base':
         specifier: ^0.1.3
         version: 0.1.3(eslint@8.57.0)(postcss@8.4.39)(prettier@3.3.3)(stylelint@16.7.0(typescript@5.5.3))(typescript@5.5.3)
@@ -257,12 +257,12 @@ packages:
     engines: {node: ^18.0.0 || ^20.0.0}
     hasBin: true
 
-  '@bring-it/npm@0.5.5':
-    resolution: {integrity: sha512-FVARTU7jcxjNc8gRklBECVdbv2Op8a70MGzGE9y/Bq1OE7Vjffaso8SIOTZSP60Um1HT9YSSTuhgJsaXAdsZ8g==}
-    engines: {node: ^18.0.0 || ^20.0.0, npm: '>=9.0.0'}
+  '@bring-it/npm@0.5.7':
+    resolution: {integrity: sha512-ynaNd2dgj/NjdqdSPN9lS9ctnKDvVF/bPCA2f0b2txNEZS2T9ZYrlKcZcVDuF1iJdgbPqDtweeCmG0XYFjHciw==}
+    engines: {node: ^18.0.0 || ^20.0.0, npm: ^9.5.0}
     hasBin: true
     peerDependencies:
-      '@bring-it/cli': ^0.9.3
+      '@bring-it/cli': ~0.9.5
 
   '@csstools/css-parser-algorithms@2.7.1':
     resolution: {integrity: sha512-2SJS42gxmACHgikc1WGesXLIT8d/q2l0UFM7TaEeIzdFCE/FPMtTiizcPGGJtlPo2xuQzY09OhrLTzRxqJqwGw==}
@@ -3320,7 +3320,7 @@ snapshots:
       globby: 14.0.2
       yargs: 17.7.2
 
-  '@bring-it/npm@0.5.5(@bring-it/cli@0.9.3)':
+  '@bring-it/npm@0.5.7(@bring-it/cli@0.9.3)':
     dependencies:
       '@bring-it/cli': 0.9.3
 

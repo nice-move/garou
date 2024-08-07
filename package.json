@@ -61,7 +61,7 @@
     "write-file-atomic": "^5.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.4",
+    "@bring-it/npm": "^0.5.7",
     "@nice-move/all-in-base": "^0.1.3",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.4",
     "@stylistic/stylelint-plugin": "^2.1.2",
