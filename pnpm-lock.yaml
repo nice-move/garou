@@ -43,8 +43,8 @@ importers:
         specifier: ^6.1.3
         version: 6.1.3
       best-shot:
-        specifier: ^0.5.8
-        version: 0.5.13(browserslist@4.23.2)
+        specifier: ^0.5.16
+        version: 0.5.19(browserslist@4.23.2)
       cheetor:
         specifier: ^0.13.0
         version: 0.13.0
@@ -771,8 +771,8 @@ packages:
   balanced-match@2.0.0:
     resolution: {integrity: sha512-1ugUSr8BHXRnK23KfuYS+gVMC3LB8QGH9W1iGtDPsNWoQbgtXSExkBu2aDR4epiGWZOjZsj6lDl/N/AqqTC3UA==}
 
-  best-shot@0.5.13:
-    resolution: {integrity: sha512-0k540Lop81DmhRxYRP1zum0bmWt0HOO1Gtn7TMK9SAOwJiR8pGHtPEN2t5vspJTAhDFZpcjg73JcOMdCGq0MWQ==}
+  best-shot@0.5.19:
+    resolution: {integrity: sha512-YUa7YQRU73MeZwPOUX+uim/6ttfqczf843ZffV7nd0UcREk/nLSrN4tr4d+HV7+sQgJDKNHLm4Qk43BSseDE8A==}
     engines: {node: '>=20.6.0 || ^18.19.0'}
     hasBin: true
     peerDependencies:
@@ -2866,8 +2866,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.31.2:
-    resolution: {integrity: sha512-LGyRZVFm/QElZHy/CPr/O4eNZOZIzsrQ92y4v9UJe/pFJjypje2yI3C2FmPtvUEnhadlSbmG2nXtdcjHOjCfxw==}
+  terser@5.31.5:
+    resolution: {integrity: sha512-YPmas0L0rE1UyLL/llTWA0SiDOqIcAQYLeUj7cJYzXHlRTAnMSg9pPe4VJ5PlKvTrPQsdVFuiRiwyeNlYgwh2Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4004,11 +4004,11 @@ snapshots:
 
   balanced-match@2.0.0: {}
 
-  best-shot@0.5.13(browserslist@4.23.2):
+  best-shot@0.5.19(browserslist@4.23.2):
     dependencies:
       '@best-shot/no-cache-loader': 0.0.0(webpack@5.93.0)
       browserslist: 4.23.2
-      terser: 5.31.2
+      terser: 5.31.5
       terser-webpack-plugin: 5.3.10(webpack@5.93.0)
       webpack: 5.93.0
       yaml-loader: 0.8.1
@@ -6344,10 +6344,10 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.31.2
+      terser: 5.31.5
       webpack: 5.93.0
 
-  terser@5.31.2:
+  terser@5.31.5:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.12.1
