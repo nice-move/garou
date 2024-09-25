@@ -24,7 +24,7 @@ A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, wh
 - Sort `html/htm` attributes
 - Sort `jsx/tsx` props
 - Sort `tsx/ts/mts/cts/jsx/js/mjs/cjs` class members
-- Sort `tsx/ts/mts/cts/jsx/js/mjs/cjs` import / export
+- ~~Sort `tsx/ts/mts/cts/jsx/js/mjs/cjs` import / export~~
 - Sort `vue` component properties / attributes
 - Dedupe yarn v1 lockfile
 - Remove cnpm cache from yarn v1 lockfile

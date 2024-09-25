@@ -1,9 +1,9 @@
+// @ts-ignore
 import { exec } from 'node:child_process';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
 
-// @ts-ignore
 import { fs, Text } from 'fs-chain';
 
 const Exec = promisify(exec);
