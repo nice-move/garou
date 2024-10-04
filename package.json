@@ -116,7 +116,7 @@
       "@nice-move/prettier-config": "^0.13.3"
     }
   },
-  "packageManager": "pnpm@9.10.0",
+  "packageManager": "pnpm@9.11.0",
   "engines": {
     "node": "^18.12.0 || ^20.0.0 || ^22.0.0"
   },
