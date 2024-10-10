@@ -55,7 +55,7 @@
   "dependencies": {
     "@typescript-eslint/parser": "^8.7.0",
     "@yarnpkg/lockfile": "^1.1.0",
-    "eslint-module-utils": "^2.11.1",
+    "eslint-module-utils": "^2.12.0",
     "flat-cache": "^3.2.0",
     "vue-eslint-parser": "^9.4.3",
     "write-file-atomic": "^5.0.1"
@@ -113,7 +113,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@nice-move/prettier-config": "^0.13.3"
+      "@nice-move/prettier-config": "^0.14.4"
     }
   },
   "packageManager": "pnpm@9.11.0",
