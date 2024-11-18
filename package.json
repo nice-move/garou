@@ -63,7 +63,7 @@
   "devDependencies": {
     "@bring-it/cli": "^0.9.9",
     "@bring-it/npm": "^0.5.9",
-    "@nice-move/all-in-base": "^0.2.10",
+    "@nice-move/all-in-base": "^0.2.11",
     "@nice-move/eslint-plugin-html": "0.0.0-beta.4",
     "@nice-move/prettier-config": "0.14.10",
     "@stylistic/stylelint-plugin": "^3.1.1",
