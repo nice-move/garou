@@ -8,7 +8,7 @@ import { fs, Text } from 'fs-chain';
 
 const Exec = promisify(exec);
 
-const bin = 'dist/cli.mjs';
+const bin = 'lib/cli.mjs';
 
 console.log('Bin:', bin);
 
@@ -58,6 +58,7 @@ export async function Test(t, filename) {
   // @ts-ignore
   await Copy(filename);
 
+  await Run(filename);
   await Run(filename);
 
   await Format(filename);
