@@ -49,7 +49,7 @@ function Result(filename) {
 function Delete(filename) {
   return fs
     .remove(
-      fileURLToPath(join(import.meta.url, '../../fixture/temp', filename)),
+      join(fileURLToPath(import.meta.url), '../../fixture/temp', filename),
     )
     .catch(console.warn);
 }
