@@ -53,9 +53,9 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "^3.0.1",
-    "@stylistic/eslint-plugin-jsx": "^3.0.1",
-    "@stylistic/eslint-plugin-ts": "^3.0.1",
+    "@stylistic/eslint-plugin-js": "^3.1.0",
+    "@stylistic/eslint-plugin-jsx": "^3.1.0",
+    "@stylistic/eslint-plugin-ts": "^3.1.0",
     "@typescript-eslint/parser": "^8.23.0",
     "@yarnpkg/lockfile": "^1.1.0",
     "eslint-module-utils": "^2.12.0",
