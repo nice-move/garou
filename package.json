@@ -84,7 +84,7 @@
     "eslint-plugin-vue": "^9.32.0",
     "espree": "^10.3.0",
     "fs-chain": "^8.2.4",
-    "globby": "^14.0.2",
+    "globby": "^14.1.0",
     "micromatch": "^4.0.8",
     "object-traversal": "^1.0.1",
     "postcss": "^8.5.1",
