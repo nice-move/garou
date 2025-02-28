@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@best-shot/analyzer": "^0.13.0",
-    "@bring-it/cli": "^0.9.9",
+    "@bring-it/cli": "^0.10.0",
     "@bring-it/npm": "^0.5.9",
     "@nice-move/all-in-base": "^0.4.10",
     "@nice-move/eslint-plugin-html": "0.1.1",
