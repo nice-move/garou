@@ -58,8 +58,8 @@ importers:
         specifier: ^6.2.0
         version: 6.2.0
       best-shot:
-        specifier: ^0.9.0
-        version: 0.9.0(browserslist@4.24.4)
+        specifier: ^0.9.3
+        version: 0.9.4(browserslist@4.24.4)
       cheetor:
         specifier: ^0.13.0
         version: 0.13.0
@@ -972,12 +972,12 @@ packages:
     resolution: {integrity: sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==}
     engines: {node: ^4.5.0 || >= 5.9}
 
-  best-shot@0.9.0:
-    resolution: {integrity: sha512-ir0AjCccopON2NvP5QkVx28wIEoGOrBI6jbUgN8uz3U3kb62JR/yF2wEcM2SB+DoRYK0gNfhceRyJ8NX/MF8YA==}
-    engines: {node: '>=22.11.0 || ^20.15.0'}
+  best-shot@0.9.4:
+    resolution: {integrity: sha512-sSkMlDwH6ZJIpXTz16dLPc/+5u4TELxBIM8cGU6dspjhPjPEDFqxVfCc77WQejf0rOGfJfhrJq+zhREWKmvqVQ==}
+    engines: {node: '>=22.11.0 || ^20.18.0'}
     hasBin: true
     peerDependencies:
-      browserslist: ^4.24.3
+      browserslist: ^4.24.4
 
   big.js@5.2.2:
     resolution: {integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==}
@@ -3475,7 +3475,7 @@ packages:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
   util-deprecate@1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
   utils-merge@1.0.1:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
@@ -4807,7 +4807,7 @@ snapshots:
 
   base64id@2.0.0: {}
 
-  best-shot@0.9.0(browserslist@4.24.4):
+  best-shot@0.9.4(browserslist@4.24.4):
     dependencies:
       '@best-shot/no-cache-loader': 0.0.0(webpack@5.98.0)
       browserslist: 4.24.4
