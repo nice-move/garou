@@ -37,8 +37,8 @@ importers:
         specifier: ^0.10.0
         version: 0.10.0
       '@bring-it/npm':
-        specifier: ^0.5.9
-        version: 0.5.9(@bring-it/cli@0.10.0)
+        specifier: ^0.6.0
+        version: 0.6.0(@bring-it/cli@0.10.0)
       '@nice-move/all-in-base':
         specifier: ^0.4.10
         version: 0.4.12(@babel/core@7.26.9)(@typescript-eslint/parser@8.25.0(eslint@9.21.0)(typescript@5.7.3))(@vue/compiler-sfc@3.5.13)(eslint@9.21.0)(postcss@8.5.3)(prettier@3.5.2)(typescript@5.7.3)
@@ -300,12 +300,12 @@ packages:
     engines: {node: '>=22.11.0 || ^20.18.1'}
     hasBin: true
 
-  '@bring-it/npm@0.5.9':
-    resolution: {integrity: sha512-OTwON7zWRmL4tPr1a9Hh0XkW6igU/SgH4nH4+PvfpE5Bmes/D4cJLn6ISRv9PMPprH4kIV4I0XEubPB+O1SuHg==}
-    engines: {node: '>=22.0.0 || ^18.20.0 || ^20.4.0', npm: '>=9.5.0'}
+  '@bring-it/npm@0.6.0':
+    resolution: {integrity: sha512-pq2KYCeOC/yzPIbbCa9moiQZYLwdXeKq0+ObDODEiJNGy4NydVWeYf7R2424Kds5Is180rjfydC+MalNlDgfgA==}
+    engines: {node: '>=22.11.0 || ^20.18.1', npm: ^10.5.0, pnpm: ^9.15.4}
     hasBin: true
     peerDependencies:
-      '@bring-it/cli': ~0.9.7
+      '@bring-it/cli': ~0.10.0
 
   '@csstools/css-parser-algorithms@3.0.4':
     resolution: {integrity: sha512-Up7rBoV77rv29d3uKHUIVubz1BTcgyUK72IvCQAbfbMv584xHcGKCKbWh7i8hPrRJ7qU4Y8IO3IY9m+iTB7P3A==}
@@ -2267,7 +2267,7 @@ packages:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
 
   isexe@2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
   iterator.prototype@1.1.5:
     resolution: {integrity: sha512-H0dkQoCa3b2VEeKQBOxFph+JAbcrQdE7KC0UkqwpLmv2EC4P41QXP+rqo9wYodACiG5/WM5s9oDApTU8utwj9g==}
@@ -3873,7 +3873,7 @@ snapshots:
       globby: 14.1.0
       yargs: 17.7.2
 
-  '@bring-it/npm@0.5.9(@bring-it/cli@0.10.0)':
+  '@bring-it/npm@0.6.0(@bring-it/cli@0.10.0)':
     dependencies:
       '@bring-it/cli': 0.10.0
 
