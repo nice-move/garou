@@ -72,7 +72,7 @@
     "@vue/compiler-sfc": "^3.5.13",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.2.0",
-    "best-shot": "^0.9.4",
+    "best-shot": "^0.9.7",
     "cheetor": "^0.13.0",
     "eslint": "^9.22.0",
     "eslint-plugin-ava": "^15.0.1",
