@@ -145,7 +145,7 @@ importers:
         specifier: ~5.8.2
         version: 5.8.3
       yaml:
-        specifier: ^2.7.0
+        specifier: ^2.7.1
         version: 2.7.1
       yarn-deduplicate:
         specifier: ^6.0.2
