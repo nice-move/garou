@@ -100,13 +100,13 @@
     "sort-keys": "^5.1.0",
     "stylelint": "^16.16.0",
     "stylelint-scss": "^6.11.1",
-    "typescript": "~5.8.2",
+    "typescript": "~5.8.3",
     "yaml": "^2.7.0",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
     "eslint": "^9.22.0",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "peerDependenciesMeta": {
     "typescript": {

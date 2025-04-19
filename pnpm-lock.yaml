@@ -142,7 +142,7 @@ importers:
         specifier: ^6.11.1
         version: 6.11.1(stylelint@16.18.0(typescript@5.8.3))
       typescript:
-        specifier: ~5.8.2
+        specifier: ~5.8.3
         version: 5.8.3
       yaml:
         specifier: ^2.7.0
