@@ -1,1 +1,11 @@
-export { default } from '@nice-move/eslint-config-base';
+import base from '@nice-move/all-in-base';
+
+export default [
+  ...base,
+  {
+    files: ['lib/cli.mjs'],
+    rules: {
+      'n/hashbang': 'off',
+    },
+  },
+];
