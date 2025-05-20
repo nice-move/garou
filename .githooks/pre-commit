@@ -1,5 +1,6 @@
 #!/bin/sh
 
-pnpm run prepublishOnly
-pnpm run garou .
-git add .
+pnpm run garou . || exit 1
+git add . || exit 1
+pnpm run lint:staged || exit 1
+pnpm run test
