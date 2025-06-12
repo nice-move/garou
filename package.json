@@ -68,7 +68,7 @@
     "@nice-move/eslint-plugin-html": "0.1.1",
     "@rsdoctor/webpack-plugin": "^1.1.2",
     "@stylistic/stylelint-plugin": "^3.1.2",
-    "@vue/compiler-sfc": "^3.5.14",
+    "@vue/compiler-sfc": "^3.5.16",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^6.3.0",
     "eslint": "^9.27.0",
