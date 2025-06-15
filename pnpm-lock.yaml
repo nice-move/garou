@@ -97,7 +97,7 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       postcss:
-        specifier: ^8.5.3
+        specifier: ^8.5.4
         version: 8.5.4
       postcss-html:
         specifier: ^1.8.0
