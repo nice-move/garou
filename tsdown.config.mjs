@@ -17,7 +17,6 @@ export default defineConfig({
   platform: 'node',
   minify: true,
   external: [
-    'cheetor',
     'postcss-sass',
     'postcss-styl',
     'sugarss',
