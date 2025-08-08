@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.9.12",
+  "version": "0.9.13",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -53,8 +53,8 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin": "^5.2.2",
-    "@typescript-eslint/parser": "^8.38.0",
+    "@stylistic/eslint-plugin": "^5.2.3",
+    "@typescript-eslint/parser": "^8.39.0",
     "cheetor": "^0.13.0",
     "eslint-module-utils": "^2.12.1",
     "parse-gitignore": "^2.0.0",
@@ -63,7 +63,8 @@
   "devDependencies": {
     "@bring-it/cli": "^0.10.0",
     "@bring-it/npm": "^0.8.3",
-    "@nice-move/all-in-web": "^0.6.4",
+    "@ianvs/prettier-plugin-sort-imports": "npm:@nice-move/prettier-plugin-sort-imports",
+    "@nice-move/all-in-web": "^0.6.7",
     "@nice-move/eslint-plugin-html": "0.1.1",
     "@stylistic/stylelint-plugin": "^4.0.0",
     "@vue/compiler-sfc": "^3.5.18",
@@ -93,16 +94,16 @@
     "settingz": "^0.2.0",
     "slash": "^5.1.0",
     "sort-keys": "^5.1.0",
-    "stylelint": "^16.23.0",
+    "stylelint": "^16.23.1",
     "stylelint-scss": "^6.12.1",
-    "tsdown": "^0.13.2",
-    "typescript": "~5.8.3",
-    "yaml": "^2.8.0",
+    "tsdown": "^0.13.4",
+    "typescript": "~5.9.2",
+    "yaml": "^2.8.1",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
     "eslint": "^9.32.0",
-    "typescript": "~5.8.3"
+    "typescript": "~5.9.2"
   },
   "peerDependenciesMeta": {
     "typescript": {
