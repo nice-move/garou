@@ -97,13 +97,13 @@
     "stylelint": "^16.24.0",
     "stylelint-scss": "^6.12.1",
     "tsdown": "^0.15.2",
-    "typescript": "~5.9.2",
+    "typescript": "~5.9.3",
     "yaml": "^2.8.1",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
     "eslint": "^9.35.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.3"
   },
   "peerDependenciesMeta": {
     "typescript": {
