@@ -110,7 +110,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.16.1",
+  "packageManager": "pnpm@10.18.2",
   "engines": {
     "node": "^20.18.0 || ^22.11.0"
   },
