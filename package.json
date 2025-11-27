@@ -96,7 +96,7 @@
     "sort-keys": "^6.0.0",
     "stylelint": "^16.25.0",
     "stylelint-scss": "^6.12.1",
-    "tsdown": "^0.16.1",
+    "tsdown": "^0.16.4",
     "typescript": "~5.9.3",
     "yaml": "^2.8.1",
     "yarn-deduplicate": "^6.0.2"
