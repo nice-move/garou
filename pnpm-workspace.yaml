@@ -1,0 +1,10 @@
+ignorePatchFailures: false
+
+shamefullyHoist: true
+
+verifyDepsBeforeRun: warn
+
+minimumReleaseAge: 720
+
+minimumReleaseAgeExclude:
+  - '@nice-move/*'
