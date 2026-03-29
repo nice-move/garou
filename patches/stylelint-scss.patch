@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 3a39043bcb762ce4515f8b4b3118263f36c7a273..12dd3824073a2ce4c37426edccfae90a77df16aa 100644
+--- a/package.json
++++ b/package.json
+@@ -9,7 +9,6 @@
+   },
+   "license": "MIT",
+   "type": "module",
+-  "exports": "./src/index.js",
+   "engines": {
+     "node": ">=20.19.0"
+   },

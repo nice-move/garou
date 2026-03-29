@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { Test } from './helper/lib.mjs';
+import { Test } from './helper/lib.mts';
 
 test.serial('js', Test, 'index.js');
 

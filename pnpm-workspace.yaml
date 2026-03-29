@@ -1,10 +1,4 @@
-ignorePatchFailures: false
-
-shamefullyHoist: true
-
-verifyDepsBeforeRun: warn
-
-minimumReleaseAge: 720
-
-minimumReleaseAgeExclude:
-  - '@nice-move/*'
+configDependencies:
+  pnpm-plugin-nice-move: 0.3.1+sha512-pIq4uYqy3pZFCcyuJeGSmhNr3u1MGfNZbjnVKtJWUfM/NfhEBzAvlkHmVG5WYhbqNQA3xuqqaJaiOUGIQvo3JA==
+patchedDependencies:
+  stylelint-scss: patches/stylelint-scss.patch

@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { Test } from './helper/lib.mjs';
+import { Test } from './helper/lib.mts';
 
 test.serial('yarn-lockfile', Test, 'yarn.lock');
 
