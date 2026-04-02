@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.9.18",
+  "version": "0.9.20",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@typescript-eslint/parser": "^8.57.2",
+    "@typescript-eslint/parser": "^8.58.0",
     "cheetor": "^0.13.0",
     "eslint-module-utils": "^2.12.1",
     "parse-gitignore": "^2.0.0",
@@ -64,9 +64,9 @@
   "devDependencies": {
     "@bring-it/cli": "^0.11.1",
     "@bring-it/npm": "^0.9.3",
-    "@eslint/markdown": "^7.5.1",
-    "@ianvs/prettier-plugin-sort-imports": "npm:@nice-move/prettier-plugin-sort-imports@^4.5.1",
-    "@nice-move/all-in-web": "^0.7.3",
+    "@eslint/markdown": "^8.0.1",
+    "@ianvs/prettier-plugin-sort-imports": "npm:@nice-move/prettier-plugin-sort-imports@^4.7.1",
+    "@nice-move/all-in-web": "^0.8.0",
     "@nice-move/eslint-plugin-html": "0.1.1",
     "@stylistic/stylelint-plugin": "^5.1.0",
     "@vue/compiler-sfc": "^3.5.31",
@@ -78,7 +78,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-sort-class-members": "^1.21.0",
-    "eslint-plugin-vue": "~10.6.0",
+    "eslint-plugin-vue": "~10.8.0",
     "espree": "^10.4.0",
     "fs-chain": "^10.0.0",
     "globby": "^16.2.0",
@@ -98,23 +98,23 @@
     "stylelint": "^17.6.0",
     "stylelint-scss": "^7.0.0",
     "tsdown": "^0.21.7",
-    "typescript": "~5.9.3",
+    "typescript": "~6.0.2",
     "yaml": "^2.8.3",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
     "eslint": "^9.39.4",
-    "typescript": "~5.9.3"
+    "typescript": "~6.0.2"
   },
   "peerDependenciesMeta": {
     "typescript": {
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=22.18.0",
-    "pnpm": "^10.27.0"
+    "pnpm": "^10.33.0"
   },
   "publishConfig": {
     "access": "public",

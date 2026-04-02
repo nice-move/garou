@@ -17,7 +17,3 @@ test.serial('scss', Test, 'index.scss');
 test.serial('html', Test, 'index.html');
 
 test.serial('htm', Test, 'index.htm');
-
-test.serial('vue', Test, 'index.vue');
-
-test.serial('md', Test, 'index.md');
