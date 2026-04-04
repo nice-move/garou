@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.9.20",
+  "version": "0.9.21",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -69,7 +69,7 @@
     "@nice-move/all-in-web": "^0.8.0",
     "@nice-move/eslint-plugin-html": "0.1.1",
     "@stylistic/stylelint-plugin": "^5.1.0",
-    "@vue/compiler-sfc": "^3.5.31",
+    "@vue/compiler-sfc": "^3.5.32",
     "@yarnpkg/lockfile": "^1.1.0",
     "ava": "^7.0.0",
     "eslint": "^9.39.4",
@@ -77,7 +77,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-sort-class-members": "^1.21.0",
+    "eslint-plugin-sort-class-members": "^1.22.1",
     "eslint-plugin-vue": "~10.8.0",
     "espree": "^10.4.0",
     "fs-chain": "^10.0.0",
