@@ -11,8 +11,6 @@ const Exec = promisify(exec);
 
 const bin = 'lib/cli.mjs';
 
-console.log('Bin:', bin);
-
 function Read(path: string) {
   return new Text(import.meta.url).source(path);
 }
@@ -25,11 +23,7 @@ function Copy(filename: string) {
 
 function Run(filename: string) {
   return Exec(`node ${bin} test/fixture/temp/${filename}`).then(
-    ({ stdout, stderr }) => {
-      console.log(stdout);
-
-      return { stdout, stderr };
-    },
+    ({ stdout, stderr }) => ({ stdout, stderr }),
   );
 }
 

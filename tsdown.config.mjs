@@ -1,12 +1,4 @@
-import { Json } from 'fs-chain';
 import { defineConfig } from 'tsdown';
-
-new Json(process.cwd())
-  .config({ pretty: true })
-  .source('node_modules/@stylistic/stylelint-plugin/package.json')
-  .onDone(({ exports: _, ...rest }) => ({ ...rest }))
-  .output()
-  .logger('hack');
 
 export default defineConfig({
   entry: 'lib/cli.mjs',
@@ -19,17 +11,19 @@ export default defineConfig({
   deps: {
     onlyBundle: false,
     neverBundle: [
-      'postcss-sass',
-      'postcss-styl',
-      'sugarss',
-      'eslint-module-utils/resolve',
       '@eslint-community/eslint-utils',
       '@stylistic/eslint-plugin',
+      '@stylistic/stylelint-plugin',
       '@typescript-eslint/parser',
+      'eslint-module-utils/resolve',
       'eslint-scope',
       'eslint',
       'eslint/use-at-your-own-risk',
+      'postcss-sass',
+      'postcss-styl',
+      'stylelint-scss',
       'stylelint',
+      'sugarss',
       'typescript',
       'vue-eslint-parser',
     ],
