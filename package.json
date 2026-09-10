@@ -97,7 +97,7 @@
     "slash": "^5.1.0",
     "sort-keys": "^6.0.1",
     "stylelint": "^17.14.1",
-    "tsdown": "^0.22.14",
+    "tsdown": "^0.23.0",
     "typescript": "~6.0.3",
     "yaml": "^2.9.0",
     "yarn-deduplicate": "^6.0.2"
