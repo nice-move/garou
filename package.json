@@ -85,7 +85,7 @@
     "globby": "^16.2.4",
     "micromatch": "^4.0.8",
     "object-traversal": "^1.0.1",
-    "postcss": "^8.5.26",
+    "postcss": "^8.5.28",
     "postcss-html": "^2.0.0",
     "postcss-less": "^6.0.0",
     "postcss-markdown": "^2.0.0",
