@@ -4,8 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-pnpmfileChecksum: sha256-Vn0ycy1VnT6yPZ/0buYVkpEOKQDYIgGQijAHbuP2Ygw=
-
 importers:
 
   .:
@@ -20,8 +18,8 @@ importers:
         specifier: ^8.68.0
         version: 8.68.0(eslint@10.9.1(jiti@2.6.1))(typescript@6.0.3)
       cheetor:
-        specifier: ^0.13.0
-        version: 0.13.0
+        specifier: ^0.14.2
+        version: 0.14.2
       eslint-module-utils:
         specifier: ^2.14.0
         version: 2.14.0(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.9.1(jiti@2.6.1))
@@ -1497,6 +1495,10 @@ packages:
   cheetor@0.13.0:
     resolution: {integrity: sha512-1QADgHQtO2oZksh/y6MK8yth40dpeWtlg0qSKMkvdpsWT2UHCT5uAw/yCDgi4vCFChMsmhgOlUsZ+O3kjKhDgg==}
     engines: {node: ^14.17.0 || >=16.13.0}
+
+  cheetor@0.14.2:
+    resolution: {integrity: sha512-8aAcLm/glpUgIxcyUO9e5pasSvfctYqEAz7ZAn+GVzwe7ao2X8nmtU3QQPPb3dHJ8+Pgodn2ZUMr/s1T+oAnWw==}
+    engines: {node: '>=24.0.0', pnpm: ^10.34.5}
 
   chevrotain@7.1.1:
     resolution: {integrity: sha512-wy3mC1x4ye+O+QkEinVJkPf5u2vsrDIYW9G7ZuwFl6v/Yu0LwUuT2POsb+NUWApebyxfkQq6+yDfRExbnI5rcw==}
@@ -5095,6 +5097,10 @@ snapshots:
   cheetor@0.13.0:
     dependencies:
       yargs: 17.7.2
+
+  cheetor@0.14.2:
+    dependencies:
+      cac: 7.0.0
 
   chevrotain@7.1.1:
     dependencies:
