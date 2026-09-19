@@ -99,7 +99,7 @@
     "stylelint": "^17.14.1",
     "tsdown": "^0.22.14",
     "typescript": "~6.0.3",
-    "yaml": "^2.9.0",
+    "yaml": "^2.9.1",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
