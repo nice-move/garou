@@ -1,6 +1,6 @@
 {
   "name": "garou",
-  "version": "0.9.22",
+  "version": "0.10.0",
   "description": "Do thing what heroes didn't do",
   "license": "MIT",
   "author": {
@@ -54,52 +54,49 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin": "^5.10.0",
-    "@stylistic/stylelint-plugin": "^5.3.0",
-    "@typescript-eslint/parser": "^8.68.0",
+    "@stylistic/eslint-plugin": "^6.0.1",
+    "@stylistic/stylelint-plugin": "^6.0.1",
+    "@typescript-eslint/parser": "^8.73.0",
     "cheetor": "^0.13.0",
     "eslint-module-utils": "^2.14.0",
+    "eslint-plugin-perfectionist": "^5.14.0",
     "parse-gitignore": "^2.0.0",
-    "stylelint-scss": "^7.2.0",
-    "vue-eslint-parser": "~10.4.1"
+    "stylelint-scss": "^7.5.0",
+    "vue-eslint-parser": "~10.4.2"
   },
   "devDependencies": {
     "@bring-it/cli": "^0.11.3",
     "@bring-it/npm": "^0.9.6",
-    "@eslint/markdown": "^8.0.3",
+    "@eslint/markdown": "^9.0.0",
     "@ianvs/prettier-plugin-sort-imports": "npm:@nice-move/prettier-plugin-sort-imports@^4.7.1",
-    "@nice-move/all-in-web": "^0.9.0",
+    "@nice-move/all-in-web": "^0.10.3",
     "@nice-move/eslint-plugin-html": "0.1.1",
-    "@vue/compiler-sfc": "^3.5.42",
+    "@vue/compiler-sfc": "^3.5.46",
     "@yarnpkg/lockfile": "^1.1.0",
-    "ava": "^8.0.1",
-    "eslint": "^10.9.1",
-    "eslint-plugin-ava": "^17.0.1",
+    "ava": "^8.4.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-ava": "^18.0.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-simple-import-sort": "^14.0.0",
     "eslint-plugin-sort-class-members": "^1.22.1",
-    "eslint-plugin-vue": "~10.10.0",
+    "eslint-plugin-vue": "~10.12.1",
     "espree": "^11.2.0",
     "fs-chain": "^10.0.0",
     "globby": "^16.2.4",
-    "micromatch": "^4.0.8",
-    "object-traversal": "^1.0.1",
-    "postcss": "^8.5.26",
-    "postcss-html": "^2.0.0",
-    "postcss-less": "^6.0.0",
+    "postcss": "^8.5.33",
+    "postcss-html": "^2.0.1",
+    "postcss-less": "^7.1.1",
     "postcss-markdown": "^2.0.0",
     "postcss-scss": "^4.0.9",
-    "prettier": "~3.9.6",
+    "prettier": "~3.10.1",
     "rehype": "^13.0.2",
     "rehype-sort-attributes": "^5.0.1",
     "settingz": "^0.2.0",
     "slash": "^5.1.0",
-    "sort-keys": "^6.0.1",
-    "stylelint": "^17.14.1",
-    "tsdown": "^0.22.14",
+    "stylelint": "^18.1.0",
+    "tsdown": "^0.23.7",
     "typescript": "~6.0.3",
-    "yaml": "^2.9.0",
     "yarn-deduplicate": "^6.0.2"
   },
   "peerDependencies": {
@@ -111,10 +108,10 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@12.21.0",
   "engines": {
-    "node": ">=22.18.0",
-    "pnpm": "^10.33.0"
+    "node": ">=24.18.0",
+    "pnpm": "^12.0.0"
   },
   "publishConfig": {
     "access": "public",
@@ -124,7 +121,7 @@
     "extensions": [
       "mts"
     ],
-    "timeout": "2m",
+    "timeout": "5m",
     "watchMode": {
       "ignoreChanges": [
         "**/temp/**"
