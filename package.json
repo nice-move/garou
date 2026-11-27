@@ -57,7 +57,7 @@
     "@stylistic/eslint-plugin": "^6.0.1",
     "@stylistic/stylelint-plugin": "^6.0.1",
     "@typescript-eslint/parser": "^8.73.0",
-    "cheetor": "^0.13.0",
+    "cheetor": "^0.15.0",
     "eslint-module-utils": "^2.14.0",
     "eslint-plugin-perfectionist": "^5.14.0",
     "parse-gitignore": "^2.0.0",
