@@ -4,10 +4,6 @@ import { Test } from './helper/lib.mts';
 
 test.serial('yarn-lockfile', Test, 'yarn.lock');
 
-test.serial('oas-json', Test, 'oas.json');
-
-test.serial('oas-yaml', Test, 'oas.yaml');
-
 test.serial('css', Test, 'index.css');
 
 test.serial('less', Test, 'index.less');

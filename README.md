@@ -28,7 +28,6 @@ A code refactoring tool, fixing what `eslint/stylelint` shouldn't care about, wh
 - Sort `vue` component properties / attributes
 - Dedupe yarn v1 lockfile
 - Remove cnpm cache from yarn v1 lockfile
-- Sort `OpenAPI Specification` config files (`json/yaml/yml`)
 - ...other fixing
 
 ## Installation
@@ -85,14 +84,6 @@ npx garou .
 Using `garou` might mess up your format, I suggest run `garou` before run `prettier`.
 
 Read more at the [lint-staged](https://github.com/okonet/lint-staged#configuration) repo.
-
-### OpenAPI Specification file sorting
-
-Garou will sort your file when it has `openapi` properties as `3.x.x`.
-
-```sh
-npm exec garou "**/*.{json,yaml,yml}"
-```
 
 ## Inspiration
 
